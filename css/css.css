@@ -44,4 +44,7 @@ main img {
   border-radius: 100%;
   margin: 20px;
   justify-self: flex-end;
+  position: absolute;
+  right: 5px;
+  top: 100px;
 }
