@@ -34,7 +34,6 @@ main ul li a {
 main ul li:hover {
   transform: translateY(-10%);
   color: #3a65af;
-  font-size: 22px;
 }
 
 main img {
