@@ -47,3 +47,17 @@ main img {
   right: 5px;
   top: 100px;
 }
+
+footer {
+  font-size: 20px;
+
+}
+
+footer a {
+  color: white;
+}
+
+.last {
+  color: yellow;
+}
+
