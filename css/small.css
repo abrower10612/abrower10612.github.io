@@ -2,28 +2,29 @@ header, footer {
   background-color: #3a65af;
   color: white;
   text-align: center;
-  border-radius: 10px;
   border: solid 5px black;
 }
 
-header h1 {
+h1 {
   font-family: 'Permanent Marker', cursive;
-  font-size: 50px;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
 }
 
 main {
   padding: 5px;
 }
 
-.mainContainer {
-  display: flex;
-  flex-direction: row;
-}
-
 main ul li {
+  display: block;
   list-style-type: none;
   font-size: 20px;
   padding: 5px;
+  text-align: center;
 }
 
 main ul li a {
@@ -37,12 +38,11 @@ main ul li:hover {
 }
 
 header img {
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 300px;
+  max-height: 300px;
   border: solid 5px black;
   border-radius: 100%;
-  margin: 30px;
-  float: right;
+  margin: 20px 0px 0px 0px;
 }
 
 footer {
