@@ -3,21 +3,9 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   } 
-  
-  .one:hover {
-    transform: translateY(-1%);
-  }
-
-  .two:hover {
-    transform: translateY(-1%);
-  }
-  
-  .three:hover {
-    transform: translateY(-1%);
-  }
 
   .description {
-    font-size: 40px;
+    font-size: 25px;
     font-family: 'Montserrat', sans-serif;
     padding: 5px;
   }
