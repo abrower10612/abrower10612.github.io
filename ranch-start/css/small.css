@@ -14,8 +14,9 @@ header {
   padding: 1rem 2%;
 }
 
-header h1 {
+header h1, h2 {
   margin: 0;
+  text-align: center;
 }
 
 header h2 {

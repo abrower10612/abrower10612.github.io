@@ -4,6 +4,10 @@ nav li {
   width: 25%;
 }
 
+header h1, h2 {
+  text-align: left;
+}
+
 main figure {
   float: right;
   width: 48%;
