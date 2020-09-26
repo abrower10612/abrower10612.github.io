@@ -9,4 +9,10 @@
     font-size: 75px;
   }
 
+  .description {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+  }
+
 }
