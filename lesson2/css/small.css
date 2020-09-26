@@ -48,6 +48,7 @@ main h2 {
   font-size: 30px;
   border-radius: 5px;
   color: #1b4332;
+  box-shadow: 5px 5px rgb(207, 205, 205);
 }
 
 .one {
