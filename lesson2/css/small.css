@@ -29,6 +29,15 @@ main h2 {
   font-family: 'Peddana', serif;
 }
 
+main h3 {
+  font-size: 45px;
+  margin: 0;
+  text-align: center;
+  border-bottom: solid 3px #52b788;
+  color: #40916c;
+  font-family: 'Peddana', serif;
+}
+
 .main_container img {
   width: 100%;
   border: 5px solid #52b788;
@@ -36,7 +45,7 @@ main h2 {
 
 .main_container a {
   text-decoration: none;
-  color: blue;
+  color: #52b788;
   font-size: 20px;
   margin: 0;
 }
