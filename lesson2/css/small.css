@@ -38,6 +38,11 @@ main h3 {
   font-family: 'Peddana', serif;
 }
 
+.main_container {
+  display: grid;
+  grid-template-columns: 1fr;
+} 
+
 .main_container img {
   width: 100%;
   border: 5px solid #52b788;
