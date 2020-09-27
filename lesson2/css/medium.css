@@ -5,10 +5,6 @@
     grid-template-columns: repeat(2, 1fr);
   } 
 
-  header h1 {
-    font-size: 40px;
-  }
-
   .description {
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
