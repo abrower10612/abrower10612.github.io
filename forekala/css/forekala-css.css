@@ -1,0 +1,758 @@
+* {
+    box-sizing: border-box;
+}
+  
+header, main, footer {
+    margin: 0px auto;
+    width: 98%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Heebo', sans-serif; 
+    color:#3a65af;
+}
+
+main {
+    max-width: 1500px;
+}
+
+body {
+    background-image: url('../images/newgrad.png');
+    background-size: cover;
+}
+
+p, a, li {
+    font-family: 'Heebo', sans-serif; 
+    color: rgb(53, 53, 53);
+}
+
+/* HEADER */
+
+header {
+    border: 5px solid #3a65af;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color:whitesmoke;
+    z-index: 10;
+    margin-bottom: 10px;
+    height: 150px;
+    position: relative;
+}
+
+header img {
+    display: block;
+    width: 400px;
+    margin: 10px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    font-size: 30px;
+    list-style-type: none;
+    padding: 14px 50px;
+}
+
+nav ul li a {
+    display: block;
+    margin: 20px;
+    text-decoration: none;
+    color: #3a65af;
+    padding: 7px;
+    text-align: center;
+    float: right;
+}
+
+nav ul li a:visited {
+    color: #3a65af
+}
+
+.topnav a:hover {
+    background-color: #3a65af;
+    border-radius: 5px;
+    padding: 7px;
+    color:whitesmoke;
+}
+
+.topnav a.active {
+    background-color: #3a65af;
+    border-radius: 5px;
+    padding: 7px;
+    color:whitesmoke;
+}
+
+/* MAIN */
+
+.hero {
+    grid-column: 1/7;
+    grid-row: 1;
+    width: 100%;
+    border: 5px solid #3a65af;
+}
+
+.homemainheader {
+    text-align: center;
+    font-size: 70px;
+    grid-column: 1/4;
+    grid-row: 1;
+}
+
+.homemaincontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+}
+
+.conquercard {
+    grid-column: 1/3;
+    grid-row: 3/5;
+    border: solid #3a65af 5px;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 3px 3px #888;
+    text-align: center;
+}
+
+.conquer {
+    grid-column: 1;
+    grid-row: 3;
+    background-color: #3a65af;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 10px;
+    z-index: 10;
+}
+
+.conquer a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.conquercardtitle {
+    grid-column: 1/3;
+    grid-row: 3;
+    z-index: 1;
+    font-size: 45px;
+    text-align: center;
+    color: #3a65af;
+    background-color: whitesmoke;
+    border-bottom: #3a65af solid 5px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.conquer:hover {
+    cursor: pointer;
+    background-color: #65a552;
+}
+
+.conquer:visited {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.conquercardimg {
+    grid-column: 1/3;
+    grid-row: 3/5;
+    width: 100%;
+    border-bottom: #3a65af solid 5px;
+    z-index: 10;
+}
+
+.conquercardtext {
+    margin: 10px;
+    text-align: center;
+}
+
+.save {
+    grid-column: 1;
+    grid-row: 3;
+    background-color: #3a65af;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.savecardtitle {
+    grid-column: 1/3;
+    grid-row: 3;
+    z-index: 1;
+    font-size: 45px;
+    text-align: center;
+    color: #3a65af;
+    background-color: whitesmoke;
+    border-bottom: #3a65af solid 5px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.save:hover {
+    cursor: pointer;
+    background-color: #65a552;
+}
+
+.save:visited {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.savecard {
+    grid-column: 3/5;
+    grid-row: 3/5;
+    border: solid #3a65af 5px;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 3px 3px #888;
+    text-align: center;
+}
+
+.savecardimg {
+    grid-column: 1/3;
+    grid-row: 3/5;
+    width: 100%;
+    border-bottom: #3a65af solid 5px;
+    z-index: 10;
+}
+
+.savecardtext {
+    margin: 10px;
+    text-align: center;
+}
+
+.build {
+    grid-column: 1;
+    grid-row: 3;
+    background-color: #3a65af;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 10px;
+    z-index: 10;
+}
+
+.build a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.buildcardtitle {
+    grid-column: 5/7;
+    grid-row: 3;
+    z-index: 1;
+    font-size: 45px;
+    text-align: center;
+    color: #3a65af;
+    background-color: whitesmoke;
+    border-bottom: #3a65af solid 5px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.build:hover {
+    cursor: pointer;
+    background-color: #65a552;
+}
+
+.build:visited {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.buildcard {
+    grid-column: 5/7;
+    grid-row: 3/5;
+    border: solid #3a65af 5px;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 3px 3px #888;
+    text-align: center;
+}
+
+.buildcardimg {
+    grid-column: 1/3;
+    grid-row: 3/5;
+    width: 100%;
+    border-bottom: #3a65af solid 5px;
+    z-index: 10;
+}
+
+.buildcardtext {
+    margin: 10px;
+    text-align: center;
+}
+
+.homemaintext {
+    grid-column: 1/7;
+    grid-row: 6;
+    text-align: center;
+    font-size: 40px;
+    background-color: whitesmoke;
+    border: solid #3a65af 5px;
+    padding: 40px;
+    margin: 30px auto;
+    box-shadow: 3px 3px 3px 3px #888;
+}
+
+.bold {
+    color: #3a65af;
+    font-size: 50px;
+}
+
+.oakland {
+    grid-column: 4/7;
+    grid-row: 7;
+    width: 100%;
+    border: solid #3a65af 5px;
+    align-items: center;
+}
+
+.tools {
+    grid-column: 4/7;
+    grid-row: 7;
+    z-index: 2;
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+}
+
+.tools a {
+    background-color: #3a65af;
+    border-radius: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+.tools a:hover {
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.gilbert {
+    grid-column: 1/4;
+    grid-row: 8;
+    width: 100%;
+    border: solid #3a65af 5px;
+    align-items: center;
+}
+
+.coaching {
+    grid-column: 1/4;
+    grid-row: 8;
+    z-index: 2;
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+}
+
+.coaching a {
+    background-color: #3a65af;
+    border-radius: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+.coaching a:hover {
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.leftlist {
+    grid-column: 1/4;
+    grid-row: 7;
+    text-align: end;
+}
+
+.leftlist a:hover {
+    background: #3a65af;
+    color: whitesmoke;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.leftlist li {
+    padding: 10px;
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.leftlist li a {
+    color:black;
+}
+
+.rightlist {
+    grid-column: 4/7;
+    grid-row: 8;
+}
+
+.rightlist li {
+    padding: 8px;
+    list-style-type: disc;
+    font-size: 30px;
+    color:black;
+}
+
+.learnmore {
+    grid-column: 4/7;
+    grid-row: 8;
+    z-index: 2;
+    font-size: 30px;
+    list-style-type: none;
+    margin-top: 350px;
+}
+
+.learnmore a {
+    background-color: #3a65af;
+    border-radius: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.learnmore a:hover {
+    font-size: 31px;
+    cursor: pointer;
+}
+
+.homeformcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 50px;
+    justify-content: center;
+}
+
+.homeform {
+    grid-column: 2/6;
+    grid-row: 1/2;
+    border: solid #3a65af 5px;
+    margin-top: 75px;
+    background-color: whitesmoke;
+    border-color: #3a65af;
+}
+
+.homeform li {
+    list-style-type: none;
+    padding: 10px 10px;
+}
+
+.homeformcontainer ul li input {
+    padding-left: 5px;
+    font-size: 25px;
+    margin-right: 30px;
+    width: 50%;
+}
+
+.message {
+    width: 95%;
+    font-size: 25px;
+    height: 200px;
+    padding-left: 5px;
+}
+
+.homeformheader {
+    font-size: 40px;
+    grid-column: 1;
+    color: #3a65af;
+}
+
+.homeform button {
+    font-size: 25px;
+}
+
+#output {
+    font-size: 30px;
+    color: #65a552;
+    max-width: 250px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dc {
+    grid-column: 1/3;
+    grid-row: 1;
+    width: 100%;
+    margin-top: 150px;
+    border: #3a65af 5px solid;
+}
+
+.dc2 {
+    grid-column: 5/7;
+    grid-row: 1;
+    width: 100%;
+    margin-top: 150px;
+    right: 100px;
+    border: #3a65af 5px solid;
+}
+
+footer {
+    border: solid #3a65af 5px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.social {
+    width: 50px;
+    grid-column: 1;
+    margin-top: 20px;
+}
+
+.forekalalogo {
+    width: 20%;
+    margin: 30px auto 0px auto;
+    justify-content: center;
+}
+
+.footertext {
+    font-size: 30px;
+}
+
+.copyright {
+    font-size: 30px;
+}
+
+
+/* CONQUER DEBT */
+
+.mainheader {
+    text-align: center;
+    font-size: 80px;
+    grid-column: 1/7;
+    grid-row: 1;
+    border-bottom: #3a65af solid 3px;
+    border-top: #3a65af solid 3px;
+}
+
+.conquercontainer {
+    display: grid;
+    grid-template-columns: 150px 200px 1fr 1fr 200px 150px;
+    grid-template-rows: 0fr 0fr 1fr;
+    grid-gap: 10px;
+    align-content: center;
+}
+
+.debtpic1 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    width: 100%;
+    border: #3a65af solid 5px;
+}
+
+.debtpic2 {
+    grid-column: 1/3;
+    grid-row: 3/4;  
+    width: 100%;
+    border: #3a65af solid 5px;
+}
+
+.conquertext1 {
+    grid-column: 3/5;
+    grid-row: 2/6;
+    text-align: center;
+    font-size: 40px;
+    margin: 0px 20px 20px 20px;
+}
+
+.debtpic3 {
+    grid-column: 5/7;
+    grid-row: 2/3;
+    width: 100%;
+    border: #3a65af solid 5px;
+}
+
+.debtpic4 {
+    grid-column: 5/7;
+    grid-row: 3/4;  
+    width: 100%;
+    border: #3a65af solid 5px;
+}
+
+.conquerbutton {
+    grid-column: 3/5;
+    grid-row: 6;
+    width: 100%;
+    justify-self: center;
+    margin: 50px 0px;
+    font-size: 40px;
+    color: whitesmoke;
+    background-color: #3a65af;
+    border-radius: 10px;
+}
+
+/* SAVE CASH */
+
+.savecontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.cashpic1 {
+    grid-column: 1/3;
+    grid-row: 2;
+    width: 100%;
+    border: #3a65af solid 5px;
+    z-index: 3;
+}
+
+.cashpic1:hover {
+    z-index: 1;
+}
+
+.test1 {
+    grid-column: 1/3;
+    grid-row: 2;
+    font-size: 40px;
+    text-align: center;
+    margin: 15px;
+    z-index: 2;
+}
+
+.test1:hover {
+    z-index: 4;
+    background-color: whitesmoke;
+    opacity: 70%;
+    margin-bottom: 80px;
+    color: black;
+}
+
+.cashpic2 {
+    grid-column: 3/5;
+    grid-row: 2;
+    width: 100%;
+    border: #3a65af solid 5px;
+    z-index: 3;
+}
+
+.cashpic2:hover {
+    z-index: 1;
+}
+
+.test2 {
+    grid-column: 3/5;
+    grid-row: 2;
+    font-size: 40px;
+    text-align: center;
+    margin: 15px;
+    z-index: 2;
+}
+
+.test2:hover {
+    z-index: 4;
+    background-color: whitesmoke;
+    opacity: 70%;
+    margin-bottom: 80px;
+    color: black;
+}
+
+.cashpic3 {
+    grid-column: 5/7;
+    grid-row: 2;
+    width: 100%;
+    border: #3a65af solid 5px;
+    z-index: 3;
+}
+
+.cashpic3:hover {
+    z-index: 1;
+}
+
+.test3 {
+    grid-column: 5/7;
+    grid-row: 2;
+    font-size: 40px;
+    text-align: center;
+    margin: 15px;
+    z-index: 2;
+}
+
+.test3:hover {
+    z-index: 4;
+    background-color: whitesmoke;
+    opacity: 70%;
+    margin-bottom: 80px;
+    color: black;
+}
+
+.savetext1 {
+    grid-column: 1/7;
+    grid-row: 3;
+    text-align: center;
+    font-size: 40px;
+    margin: 10px 20px 20px 20px;
+}
+
+.savebutton {
+    grid-column: 2/6;
+    grid-row: 6;
+    width: 70%;
+    justify-self: center;
+    margin: 50px 0px;
+    font-size: 40px;
+    color: whitesmoke;
+    background-color: #3a65af;
+    border-radius: 10px;
+}
+
+/* BUILD TOMORROW */
+
+.buildcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.buildpic1 {
+    grid-column: 1/7;
+    grid-row: 2;
+    width: 100%;
+    border: #3a65af solid 5px;
+}
+
+.buildtext1 {
+    grid-column: 1/7;
+    grid-row: 3;
+    text-align: center;
+    font-size: 40px;
+    margin: 10px 20px 20px 20px;
+}
+
+.buildpic2 {
+    grid-column: 1/3;
+    grid-row: 4;
+    width: 100%;
+    border: #3a65af solid 5px;
+}
+
+.buildpic3 {
+    grid-column: 3/5;
+    grid-row: 4;
+    width: 100%;
+    border: #3a65af solid 5px;
+}
+
+.buildpic4 {
+    grid-column: 5/7;
+    grid-row: 4;
+    width: 100%;
+    border: #3a65af solid 5px;
+}
+
+.buildtext2 {
+    grid-column: 1/7;
+    grid-row: 5;
+    text-align: center;
+    font-size: 40px;
+    margin: 10px 20px 20px 20px;
+}

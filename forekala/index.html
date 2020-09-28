@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Forekala Finance website for financial guidance involving the elimination of debt, the proper practices of saving money, and putting money away towards growing for retirement">
+    <link rel="stylesheet" href="css/forekala-css.css">
+    <link rel='icon' href='fav.png' type='image/x-icon'/>
+    <title>Forekala Finance</title>
+    <script>
+        function question() {
+            alert("Thank you for submitting your question. A specialist will be reach out to you shortly.");
+            document.getElementById("output").innerHTML = "Sent!"
+        }
+        function comingSoon() {
+                alert("This feature is coming soon!")
+        }
+    </script>
+</head>
+<body>
+    <header id="myHeader">
+        <img src="images/Forekala.png" alt="Forekala Logo">
+        <nav class="topnav">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="conquerdebt.html">Conquer Debt</a></li>
+                <li><a href="savecash.html">Save Cash</a></li>
+                <li><a href="buildtomorrow.html">Build Tomorrow</a></li>
+            </ul>
+        </nav>
+    </header>
+    <p class="quoted, blue"></p>
+    <main>
+        <div class="homemaincontainer">
+            <img src="images/sunrise.jpg" alt="Picture of a sunrise" class="hero">
+            <h1 class="homemainheader">Financial Freedom</h1>
+            <article class="conquercard">
+                <h2 class="conquercardtitle">Conquer Debt</h2>
+                <img src="images/conquer.jpg" alt="" class="conquercardimg">
+                <p class="conquercardtext">Debt can feel like a mountain weighing you down. The best time to start getting rid of it was yesterday. The second best time start is now. Forekala Finance is here to help you create that freedom.</p>
+                <button class="conquer" onclick="document.location='conquerdebt.html'">Learn How to Conquer Debt</button>
+            </article>
+            <article class="savecard">
+                <h2 class="savecardtitle">Save Cash</h2>
+                <img src="images/save.jpg" alt="" class="savecardimg">
+                <p class="savecardtext">Saving cash for the unexpected is not only smart, it's essential for your peace of mind. Forekala has designed a proven plan that guarantees you success in saving for those rainy days and always being ready.</p>
+                <button class="save" onclick="document.location='savecash.html'">Learn How to Save Cash</button>
+            </article>
+            <article class="buildcard">
+                <h2 class="buildcardtitle">Build Tomorrow</h2>
+                <img src="images/build.jpg" alt="" class="buildcardimg">
+                <p class="buildcardtext">There really is nothing better than a big 'thank you' from your future self. Preparation is the key to making memories and enjoying time with your loved ones. Forekala is hear to help you prepare and succeed.</p>
+                <button class="build" onclick="document.location='buildtomorrow.html'">Learn How to Build Tomorrow</button>
+            </article>
+            <p class="homemaintext"><b class="bold">Forekala is a journey towards financial paradise.</b><br> It means making decisions today that build financial freedom and peace for tomorrow. Forekala requires preparation, commitment, and endurance, all of which you have within you. Time is your number one ally and there's no better time to start than now. </p>
+            <div class="tools"><a onclick="comingSoon()">Tools & Calculators</a></div>
+            <img src="images/budget3.jpg" alt="gilbert" class="gilbert">
+            <div class="coaching"><a onclick="comingSoon()">Coaching & Guidance</a></div>
+            <img src="images/budget2.jpg" alt="oakland" class="oakland">
+            <ul class="leftlist">
+                <li><a onclick="comingSoon()">How much house can you afford?</a></li>
+                <li><a onclick="comingSoon()">How much car can you afford?</a></li>
+                <li><a onclick="comingSoon()">Is renting or buying a home best for you?</a></li>
+                <li><a href="cssflexpractice.html">Which debts should you pay off first?</a></li>
+                <li><a onclick="comingSoon()">How much should you save for emergencies?</a></li>
+            </ul>
+            <ul class="rightlist">
+                <li>One-on-one financial coaching.</li>
+                <li>Custom guidance tailored to your financial situation.</li>
+                <li>Learn how to form habits of successful money management.</li>
+                <li>Built-in accountability with your financial coach each week.</li>
+            </ul>
+            <ul class="learnmore">
+                <li><a onclick="comingSoon()">Click here to learn more!</a></li>
+            </ul>
+        </div>
+        <div class="homeformcontainer">
+            <div class="homeform">
+                <ul>
+                    <li class="homeformheader">Questions?</li>
+                        <li>
+                            <label >Name:<br>
+                            <input type="text" placeholder="Type here..." class="name" name="name">
+                            </label>
+                        </li>
+                        <li>
+                            <label>Email Address:<br>
+                                <input type="text" placeholder="Type here..." class="email" name="email">
+                            </label>
+                        </li>
+                        <li>
+                            <label>Phone Number:<br>
+                                <input type="text" placeholder="Type here..." class="phone" name="phone">
+                            </label>
+                        </li>
+                        <li>
+                            <label>Comment:<br>
+                                <textarea placeholder="Enter your question here..." class="message"></textarea>
+                            </label>
+                        </li>
+                        <li>
+                            <button onclick="question()">Submit your question now!</button>
+                            <div id="output"><br></div>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img src="images/Forekala.png" alt="Forekala logo" class="forekalalogo"><br>
+        <a href="https://www.instagram.com/forekala_finance" target="_blank" rel="noopener"><img src="images/instagram.png" alt="instagram logo" class="social"></a>&emsp;<a href="https://www.facebook.com/forekala" target="_blank" rel="noopener"><img src="images/facebook.png" alt="facebook logo" class="social"></a>
+        <p class="footertext">123 South 123 West, Provo, UT 84601&emsp13;|&emsp13;123-456-7890&emsp13;|&emsp13;info@forekala.finance<br>Copyright © 2020 Forekala Finance. All Rights Reserved</p>
+    </footer>
+</body>
+</html>
