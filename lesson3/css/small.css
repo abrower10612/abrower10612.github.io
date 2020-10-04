@@ -38,6 +38,7 @@ header {
 .weatherbird {
   font-size: 35px;
   margin: 0;
+  margin-bottom: 10px;
 }
 
 .site-plan {
@@ -107,6 +108,7 @@ h2 {
 
 .paragraph {
   margin-top: 0px;
+  font-weight: 300;
 }
 
 .active {
