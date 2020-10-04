@@ -142,3 +142,11 @@ footer {
   display: table;
   clear: both;
 }
+
+/* ----------------Target Audience--------------------- */
+
+.personaimg {
+  width: 75%;
+  margin: 10px 0px;
+  border: solid 3px #4D648D;
+}
