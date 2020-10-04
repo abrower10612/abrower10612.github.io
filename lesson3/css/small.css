@@ -23,7 +23,7 @@ html {
 header {
   text-align: center;
   border: solid 3px #4D648D;
-  margin: 0px 10px;
+  margin: 10px;
   color: #4D648D;
   box-shadow: 3px 5px #aaa;
 }
@@ -41,6 +41,7 @@ header {
 .site-plan {
   font-size: 25px;
   margin: 0;
+  margin-bottom: 10px;
 }
 
 .logo {
@@ -93,7 +94,7 @@ nav {
 }
 
 nav ul {
-  /* background-color: #F4EADE; */
+  background-color: #DDEFFF;
   border-top: none;
   margin: 0;
   padding: 0;
@@ -127,7 +128,7 @@ main {
 footer {
   text-align: center ;
   border: solid 3px #4D648D;
-  background-color: #F4EADE;
+  /* background-color: #F4EADE; */
   color: #4D648D;
   margin: 10px;
   padding: 0px;
