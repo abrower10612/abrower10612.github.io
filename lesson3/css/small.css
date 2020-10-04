@@ -1,4 +1,18 @@
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+html {
+  -webkit-text-size-adjust: 100%; 
+  -ms-text-size-adjust: 100%;
+  /* background: url(/lesson3/images/sunset.jpg);
+  background-position: center; */
+  background: hsla(208, 100%, 93%, 1);
+
+  background: linear-gradient(270deg, hsla(208, 100%, 93%, 1) 0%, hsla(26, 100%, 95%, 1) 51%, hsla(0, 100%, 96%, 1) 100%);
+  
+  background: -moz-linear-gradient(270deg, hsla(208, 100%, 93%, 1) 0%, hsla(26, 100%, 95%, 1) 51%, hsla(0, 100%, 96%, 1) 100%);
+  
+  background: -webkit-linear-gradient(270deg, hsla(208, 100%, 93%, 1) 0%, hsla(26, 100%, 95%, 1) 51%, hsla(0, 100%, 96%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#DDEFFF", endColorstr="#FFEFE3", GradientType=1 );
+}
 
 * { -moz-box-sizing: border-box; 
   -webkit-box-sizing: border-box; 
@@ -79,7 +93,7 @@ nav {
 }
 
 nav ul {
-  background-color: #F4EADE;
+  /* background-color: #F4EADE; */
   border-top: none;
   margin: 0;
   padding: 0;
