@@ -101,9 +101,8 @@ h2 {
 
 .section-header {
   font-size: 2rem;
-  margin-top: 20px;
-  margin-bottom: 0;
-  font: bold;
+  margin: 15px 0px;
+  font-weight: 600;
 }
 
 .paragraph {
