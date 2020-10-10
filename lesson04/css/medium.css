@@ -1,0 +1,51 @@
+@media only screen and (min-width: 920px) {
+  header {
+    display: flex;
+    flex: row;
+    align-items: center;
+
+  }
+  
+  nav {
+    margin: 0;
+    border-top: none;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-flow: row;
+    border-top: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+  } 
+  
+  nav ul li a {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+
+  .site-plan {
+    font-size: 0;
+  }
+
+  .color-scheme {
+    width: 60%;
+  }
+
+  .personaimg {
+    width: 30%;
+  }
+
+  .paragraph {
+    max-width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .domain {
+    width: 50%;
+  }
+}
