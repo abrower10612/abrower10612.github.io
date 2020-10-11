@@ -55,7 +55,7 @@ header {
   color: #4D648D;
 }
 
-.moto {
+.motto {
   margin: 0px 0px 10px 0px;
   font-size: 15px;
 }
@@ -162,12 +162,4 @@ footer {
   content: "";
   display: table;
   clear: both;
-}
-
-/* ----------------Target Audience--------------------- */
-
-.personaimg {
-  width: 75%;
-  margin: 10px 0px;
-  border: solid 3px #4D648D;
 }
