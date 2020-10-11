@@ -36,5 +36,5 @@ weekday[6] = "Saturday";
 var dayOfWeek = weekday[d.getDay()];
 
 
-document.getElementById("fullDate").innerHTML = dayOfWeek + ', ' + date + ' ' + month + ' ' + year; 
+document.getElementById("fullDate").innerHTML = `${dayOfWeek}, ${date} ${month} ${year}`; 
 document.getElementById("currentYear").innerHTML = year;
