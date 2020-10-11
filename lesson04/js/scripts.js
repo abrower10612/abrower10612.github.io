@@ -33,8 +33,8 @@ weekday[4] = "Thursday";
 weekday[5] = "Friday";
 weekday[6] = "Saturday";
 
-var n = weekday[d.getDay()];
+var dayOfWeek = weekday[d.getDay()];
 
 
-document.getElementById("fullDate").innerHTML = n + ', ' + date + ' ' + month + ' ' + year; 
+document.getElementById("fullDate").innerHTML = dayOfWeek + ', ' + date + ' ' + month + ' ' + year; 
 document.getElementById("currentYear").innerHTML = year;
