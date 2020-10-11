@@ -11,7 +11,7 @@ html {
   
   background: -webkit-linear-gradient(270deg, hsla(208, 100%, 93%, 1) 0%, hsla(26, 100%, 95%, 1) 51%, hsla(0, 100%, 96%, 1) 100%);
   
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#DDEFFF", endColorstr="#FFEFE3", GradientType=1 );
+  /* filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#DDEFFF", endColorstr="#FFEFE3", GradientType=1 ); */
 }
 
 * { -moz-box-sizing: border-box; 
