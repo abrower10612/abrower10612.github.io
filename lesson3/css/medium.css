@@ -1,7 +1,7 @@
 @media only screen and (min-width: 920px) {
   header {
     display: flex;
-    flex: row;
+    flex-flow: row;
     align-items: center;
 
   }
