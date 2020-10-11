@@ -33,6 +33,7 @@ header {
 .headercontainer {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .logo-symbol {
@@ -47,7 +48,7 @@ header {
 
 .ham {
   margin: 0;
-  margin-left: 15px;
+  margin-left: 20px;
   font-size: 30px;
   background-color: #DDEFFF;
   border: none;
