@@ -48,8 +48,8 @@ header {
 
 .ham {
   margin: 0;
-  /* margin-left: 20px; */
   font-size: 30px;
+  float: right;
   background-color: #DDEFFF;
   border: none;
   color: #4D648D;
