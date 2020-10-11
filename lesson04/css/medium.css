@@ -13,6 +13,12 @@
     display: none;
   }
 
+  #primaryNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  }
+
   nav ul.hide {
     display: flex;
     justify-content: center;
@@ -31,6 +37,6 @@
     align-items: center;
   }
 
-
+  footer {}
 
 }
