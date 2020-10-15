@@ -1,0 +1,39 @@
+@media only screen and (min-width: 700px) {
+
+  .weatherbird {
+    font-size: 50px;
+  }
+
+  .motto {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  header button {
+    display: none;
+  }
+
+  #primaryNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  }
+
+  nav ul.hide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav ul li a{ 
+    padding: 5px 10px;
+    margin: 0px 10px;
+    font-size: 15px;
+  }
+
+  .fullheadercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
