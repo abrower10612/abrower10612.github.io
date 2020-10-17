@@ -1,6 +1,11 @@
+// <----------------TOGGLE MENU------------------------>
+
+
 function toggleMenu() {
   document.getElementById("primaryNav").classList.toggle("hide");
 }
+
+// <----------------FOOTER DATE INFO------------------------>
 
 var d = new Date();
 var year = d.getFullYear();
@@ -35,6 +40,21 @@ weekday[6] = "Saturday";
 
 var dayOfWeek = weekday[d.getDay()];
 
-
 document.getElementById("fullDate").innerHTML = `${dayOfWeek}, ${date} ${month} ${year}`; 
 document.getElementById("currentYear").innerHTML = year;
+
+
+// <----------------FRIDAY PANCAKE MESSAGE------------------------>
+
+
+const today = new Date();
+const dayNumber = today.getDay();
+const element = document.getElementById('message');
+
+if (dayNumber == 4) {
+  element.classList.add("showme")
+}
+
+else {
+  element.classList.add("hideme")
+}

@@ -36,4 +36,28 @@
     justify-content: center;
     align-items: center;
   }
+
+  section.forecast {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  section.forecast div {
+    text-align: center;
+    border: 1px solid #4D648D;
+    border-right: none;
+    padding-bottom: 10px;
+  }
+
+  section.forecast div:nth-child(5){
+    text-align: center;
+    border: 1px solid #4D648D;
+  }
+
+  section.forecast div h5 {
+    background-color: #DDEFFF;
+    margin: 0 0 10px 0;
+    padding: 1rem;
+    border-bottom: 1px solid #4D648D;
+  }
 }
