@@ -19,6 +19,13 @@
     align-items: center;  
   }
 
+  .summary {
+    top: 40px;
+    left: 40px;
+    padding: 15px;
+    font-size: 25px;
+  }
+
   nav ul.hide {
     display: flex;
     justify-content: center;
@@ -35,6 +42,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  #message {
+    font-size: 25px;
   }
 
   section.forecast {

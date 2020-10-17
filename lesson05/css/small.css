@@ -98,6 +98,8 @@ nav a:hover {
   color: #4D648D;
   padding: 5px;
   border: 2px solid #4D648D;
+  margin: 0 auto 10px;
+  max-width: 400px;
 }
 
 div.showme {
@@ -125,7 +127,7 @@ div.hideme {
 .summary {
   position: absolute;
   top: 10px;
-  left: 20px;
+  left: 10px;
   border: 2px solid #4D648D;
   padding: 10px;
   background-color: hsla(26, 100%, 95%, 1);

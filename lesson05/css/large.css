@@ -11,4 +11,11 @@
     margin: 0px;
   }
 
+  .summary {
+    top: 40px;
+    left: 40px;
+    padding: 15px;
+    font-size: 30px;
+  }
+
 }
