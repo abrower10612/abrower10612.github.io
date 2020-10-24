@@ -71,4 +71,32 @@
     padding: 1rem;
     border-bottom: 1px solid #4D648D;
   }
+
+  .contact {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 50px;
+    font-size: 20px;
+  }
+
+  .contact h5 {
+    margin: 30px 0 0;
+  }
+  
+  .contact div {
+    margin: 10px;
+  }
+  
+  .preston_map {
+    display: none;
+  }
+
+  .preston_map {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    border: solid 2px #4D648D;
+    margin: 20px;
+  }
 }
