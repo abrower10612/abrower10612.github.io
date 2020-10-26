@@ -115,18 +115,18 @@ div.hideme {
   position: relative;
 }
 
-.herodiv h2, p {
-  margin: 0;
-}
-
-.heroimg {
+.herodiv img {
   max-width: 100%;
   border: solid 2px #4D648D;
 }
 
+.herodiv h2, p {
+  margin: 0;
+}
+
 .summary {
   position: absolute;
-  top: 10px;
+  top: 35px;
   left: 10px;
   border: 2px solid #4D648D;
   padding: 10px;
