@@ -1,0 +1,98 @@
+@media only screen and (min-width: 700px) {
+
+  .weatherbird {
+    font-size: 50px;
+  }
+
+  .motto {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  header button {
+    display: none;
+  }
+
+  #primaryNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  }
+
+  .summary {
+    top: 60px;
+    left: 20px;
+    padding: 15px;
+    font-size: 25px;
+  }
+
+  nav ul.hide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav ul li a{ 
+    padding: 5px 10px;
+    margin: 0px 10px;
+    font-size: 15px;
+  }
+
+  .fullheadercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #message {
+    font-size: 25px;
+  }
+
+  section.forecast {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  section.forecast div {
+    text-align: center;
+    border: 1px solid #4D648D;
+    border-right: none;
+    padding-bottom: 10px;
+  }
+
+  section.forecast div:nth-child(5){
+    text-align: center;
+    border: 1px solid #4D648D;
+  }
+
+  section.forecast div h5 {
+    background-color: #DDEFFF;
+    margin: 0 0 10px 0;
+    padding: 1rem;
+    border-bottom: 1px solid #4D648D;
+  }
+
+  .contact {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 50px;
+    font-size: 20px;
+  }
+
+  .contact h5 {
+    margin: 30px 0 0;
+  }
+  
+  .contact div {
+    margin: 10px;
+  }
+
+  .preston_map {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    border: solid 2px #4D648D;
+    margin: 20px;
+  }
+}
