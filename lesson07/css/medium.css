@@ -95,4 +95,10 @@
     border: solid 2px #4D648D;
     margin: 20px;
   }
+
+/* --------------------Gallery----------------------- */
+
+.gallery {
+  grid-template-columns: repeat(2, 1fr);
+}
 }
