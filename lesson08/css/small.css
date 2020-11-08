@@ -239,3 +239,43 @@ footer p {
   display: table;
   clear: both;
 }
+
+/* STORM CENTER */
+
+label {
+  display: block;
+  margin: 20px;
+  font-size: 20px;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+}
+
+textarea {
+  display: block;
+  margin: 0 auto;
+}
+
+select {
+  display: block;
+  margin: 0 auto;
+}
+
+.thanks {
+  font-size: 40px;
+}
+
+.thanksSun {
+  width: 50%;
+  margin: 20px;
+}
+
+.thanksReturn {
+  display: block;
+  margin: 20px auto;
+  font-size: 20px;
+  text-decoration: none;
+  color: #4D648D;
+}
