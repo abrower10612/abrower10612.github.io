@@ -1,0 +1,50 @@
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+}
+
+div {
+  background-color: lightblue;
+  border: solid 2px black;
+  margin: 10px;
+  font-size: 100px;
+  text-align: center;
+}
+
+span {
+  background-color: lightblue;
+  border: solid 2px black;
+  margin: 10px;
+  font-size: 100px;
+  text-align: center;
+}
+
+/* :nth-child(3) {
+  background-color: lightgreen;
+}
+
+:nth-of-type(3) {
+  background-color: lightsalmon;
+} */
+
+/* :nth-child(3n) {
+  background-color: lightgreen;
+}
+
+:nth-of-type(3n) {
+  background-color: lightsalmon;
+}  */
+
+
+/* div:nth-child(n+3) {
+  background-color: lightgreen;
+} */
+
+div:nth-of-type(-n+6) {
+  background-color: lightsalmon;
+}
+
+
+
