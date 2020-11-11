@@ -242,25 +242,76 @@ footer p {
 
 /* STORM CENTER */
 
-label {
-  display: block;
-  margin: 20px;
-  font-size: 20px;
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: initial;
+  margin: 0 auto;
+  align-items: center;
 }
 
-input {
+form input {
+  margin-top: 5px;
+}
+
+form label.top {
   display: block;
-  margin: 10px auto;
+  padding-top: 10px;
+  width: 175px;
+}
+
+form label.top input {
+  display: block;
+}
+
+#rating {
+  display: unset;
+}
+
+.sbs {
+  display: block;
+  margin: 20px 0px;
+}
+
+.sbs input {
+  display: block;
+  text-align: initial;
+}
+
+label input .initial {
+  display: inline;
 }
 
 textarea {
   display: block;
-  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  width: 175px;
+}
+
+input[type="radio"] {
+  margin-top: 15px;
 }
 
 select {
   display: block;
-  margin: 0 auto;
+  margin-top: 5px;
+  width: 175px;
+}
+
+.button {
+  font-size: 15px;
+  background-color: #4D648D;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 175px;
+}
+
+.button:hover {
+  background-color: white;
+  color: #4D648D;
 }
 
 .thanks {

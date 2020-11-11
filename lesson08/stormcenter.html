@@ -30,13 +30,14 @@
       </nav>
   </header>
   <main>
+    <h1>Storm Center</h1>
     <form action="thanks.html">
-      <label>Full Name*<input type="text" required pattern="[A-Za-z]{5,}+" name="fname" minlength="5"></label>
-      <label>Email*<input type="email" required placeholder="email@email.com" name="email"></label>
-      <label>Phone Number*<input type="tel" required name="telephone"></label>
-      <label>Zip Code*<input type="number" required name="zipCode"></label>
-      <label>Storm Date*<input type="date" required name="stormDate"></label>
-      <label>Storm Type
+      <label class="top">Full Name*<input type="text" required pattern="[A-Za-z]{5,}+" name="fname" minlength="5"></label>
+      <label class="top">Email*<input type="email" required placeholder="email@email.com" name="email"></label>
+      <label class="top">Phone Number*<input type="tel" required name="telephone"></label>
+      <label class="top">Zip Code*<input type="number" required name="zipCode"></label>
+      <label class="top">Storm Date*<input type="date" required name="stormDate"></label>
+      <label  class="top">Storm Type
         <input list="storms" name="storms">
         <datalist id="storms">
           <option value="Flash Flood">
@@ -46,24 +47,24 @@
           <option value="Tornado">
         </datalist>
       </label>
-      <label class="flexly" for="rating">Storm Severity &nbsp;&nbsp;&nbsp;
+      <label class="top">Storm Severity &nbsp;&nbsp;&nbsp;<br>
 				<input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" name="stormSeverity">
 				<span id="ratingvalue">5</span>
       </label>
-      <label>Storm Region <select name="region" id="region">
+      <label class="sbs">Storm Region <select name="region" id="region">
         <option value="region" disabled>Select Region...</option>
         <option value="Preston">Preston</option>
         <option value="Soda Springs">Sode Springs</option>
         <option value="Fish Haven">Fish Haven</option>
       </select>
     </label>
-    <label>User in Danger
+    <label class="top">User in Danger
       <input type="radio" name="radio">Yes
       <input type="radio" name="radio">Maybe
       <input type="radio" name="radio">No
     </label>
-    <label>Comments:<textarea name="comments" id="comments" cols="30" rows="10" placeholder="Type comments here..."></textarea></label>
-      <input type="submit" value="Submit My Weather Report">
+    <label class="top">Comments:<textarea name="comments" id="comments" cols="30" rows="10" placeholder="Type comments here..."></textarea></label>
+      <input type="submit" value="Submit My Report" class="button">
     </form>
   </main>
   <footer>
