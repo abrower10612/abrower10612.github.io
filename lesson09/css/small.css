@@ -349,34 +349,12 @@ select {
   gap: 10px;
 }
 
-.fishHaven {
+.towns section {
   background-color: #DDEFFF;
   border: solid 2px #4D648D;
 }
 
-.fishHaven img {
-  width: 75%;
-  border: solid 2px #4D648D;
-  margin: 20px;
-}
-
-.preston {
-  background-color: #DDEFFF;
-  border: solid 2px #4D648D;
-}
-
-.preston img {
-  width: 75%;
-  border: solid 2px #4D648D;
-  margin: 20px;
-}
-
-.sodaSprings {
-  background-color: #DDEFFF;
-  border: solid 2px #4D648D;
-}
-
-.sodaSprings img {
+.towns img {
   width: 75%;
   border: solid 2px #4D648D;
   margin: 20px;
