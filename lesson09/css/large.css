@@ -18,10 +18,19 @@
     font-size: 30px;
   }
 
-  /* --------------------Gallery----------------------- */
+/* GALLERY */
 
 .gallery {
   grid-template-columns: repeat(3, 1fr);
 }
 
+/* HOME */
+
+.towns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
+
+}
+/* END OF MEDIA QUERY */

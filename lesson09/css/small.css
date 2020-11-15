@@ -102,6 +102,8 @@ nav a:hover {
   max-width: 400px;
 }
 
+
+
 div.showme {
   display: block;
 }
@@ -216,7 +218,7 @@ section.forecast {
   margin: 10px;
 }
 
-.preston_map {
+._map {
   display: none;
 }
 
@@ -232,6 +234,14 @@ footer {
 
 footer p {
   margin: 10px;
+}
+
+footer li a {
+  color: #4D648D;
+}
+
+footer li {
+  list-style-type: none;
 }
 
 .clearfix:after {
@@ -329,4 +339,45 @@ select {
   font-size: 20px;
   text-decoration: none;
   color: #4D648D;
+}
+
+/* HOME */
+
+.towns {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+}
+
+.fishHaven {
+  background-color: #DDEFFF;
+  border: solid 2px #4D648D;
+}
+
+.fishHaven img {
+  width: 75%;
+  border: solid 2px #4D648D;
+  margin: 20px;
+}
+
+.preston {
+  background-color: #DDEFFF;
+  border: solid 2px #4D648D;
+}
+
+.preston img {
+  width: 75%;
+  border: solid 2px #4D648D;
+  margin: 20px;
+}
+
+.sodaSprings {
+  background-color: #DDEFFF;
+  border: solid 2px #4D648D;
+}
+
+.sodaSprings img {
+  width: 75%;
+  border: solid 2px #4D648D;
+  margin: 20px;
 }
