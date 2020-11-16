@@ -158,7 +158,6 @@ h1 {
   filter: blur(0em);
   transition: filter 0.5s;
   border: solid 2px black;
-  
 }
 
 .gallery img:hover {
@@ -279,19 +278,26 @@ form label.top input {
   text-align: initial;
 }
 
-label input .initial {
-  display: inline;
+.radio {
+  display: block;
+  padding-top: 10px;
+  width: 175px;
+  /* margin: 15px 0 0 15px; */
 }
+
+.radio label input{
+  margin-right: 5px;
+}
+
+/* label input .initial {
+  display: inline;
+} */
 
 textarea {
   display: block;
   margin-bottom: 20px;
   margin-top: 5px;
   width: 175px;
-}
-
-input[type="radio"] {
-  margin-top: 15px;
 }
 
 select {
