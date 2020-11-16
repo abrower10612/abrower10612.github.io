@@ -282,7 +282,7 @@ form label.top input {
   display: block;
   padding-top: 10px;
   width: 175px;
-  /* margin: 15px 0 0 15px; */
+  margin-bottom: 10px;
 }
 
 .radio label input{
