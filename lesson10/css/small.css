@@ -1,0 +1,360 @@
+html {
+  -webkit-text-size-adjust: 100%; 
+  -ms-text-size-adjust: 100%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background: hsla(208, 100%, 93%, 1);
+
+  background: linear-gradient(270deg, hsla(208, 100%, 93%, 1) 0%, hsla(26, 100%, 95%, 1) 51%, hsla(0, 100%, 96%, 1) 100%);
+  
+  background: -moz-linear-gradient(270deg, hsla(208, 100%, 93%, 1) 0%, hsla(26, 100%, 95%, 1) 51%, hsla(0, 100%, 96%, 1) 100%);
+  
+  background: -webkit-linear-gradient(270deg, hsla(208, 100%, 93%, 1) 0%, hsla(26, 100%, 95%, 1) 51%, hsla(0, 100%, 96%, 1) 100%);
+}
+
+* { -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+header {
+  text-align: center;
+  border: solid 3px #4D648D;
+  margin: 10px;
+  color: #4D648D;
+  box-shadow: 3px 5px #aaa;
+  background-color: #DDEFFF;
+}
+
+.headercontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-symbol {
+  width: 50px;
+  margin: 10px;
+}
+
+.weatherbird {
+  font-size: 29px;
+  margin: 0;
+}
+
+.ham {
+  position: relative;
+  top: 12px;
+  right: 0;
+  margin: 0;
+  font-size: 30px;
+  float: right;
+  background-color: #DDEFFF;
+  border: none;
+  color: #4D648D;
+}
+
+.motto {
+  margin: 0px 0px 10px 0px;
+  font-size: 15px;
+}
+
+nav {
+  margin: 0;
+}
+
+nav ul {
+  background-color: #DDEFFF;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #4D648D;
+  padding: 5px 0px;
+  text-align: center;
+  font-size: 20px;
+}
+
+nav a:hover {
+  background-color: #4D648D;
+  color: white;
+}
+
+#message {
+  background-color: hsla(26, 100%, 95%, 1);
+  color: #4D648D;
+  padding: 5px;
+  border: 2px solid #4D648D;
+  margin: 0 auto 10px;
+  max-width: 400px;
+}
+
+div.showme {
+  display: block;
+}
+
+div.hideme {
+  display: none;
+}
+
+.herodiv {
+  margin: 10px auto;
+  position: relative;
+}
+
+.herodiv img {
+  width: 100%;
+  border: solid 2px #4D648D;
+}
+
+.herodiv h2, p {
+  margin: 0;
+}
+
+.summary {
+  position: absolute;
+  top: 35px;
+  left: 10px;
+  border: 2px solid #4D648D;
+  padding: 10px;
+  background-color: hsla(26, 100%, 95%, 1);
+  color: #4D648D;
+  opacity: .85;
+  font-size: 10px;
+}
+
+.summary h3 {
+  margin: 5px;
+  text-decoration: underline;
+}
+
+h1 {
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 35px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  filter: blur(0em);
+  transition: filter 0.5s;
+  border: solid 2px black;
+  
+}
+
+.gallery img:hover {
+  box-shadow: 5px 5px 5px gray  ;
+}
+
+img[data-src] {
+  filter: blur(1em);
+}
+
+.divider {
+  padding: 5px;
+  border-bottom: solid 1px #4D648D;
+}
+
+.section-header {
+  font-size: 2rem;
+  margin: 40px 0px 15px 0px;
+  font-weight: 600;
+}
+
+.paragraph {
+  margin-top: 0px;
+  font-weight: 300;
+}
+
+.active {
+  background-color: #4D648D;
+  color: white;
+}
+
+main {
+  text-align: center;
+  color: #4D648D;
+  margin: 10px;
+  padding: 10px;
+}
+
+section.forecast {
+  display: none;
+}
+
+.contact {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.contact h5 {
+  margin: 0;
+}
+
+.contact div {
+  margin: 10px;
+}
+
+._map {
+  display: none;
+}
+
+footer {
+  text-align: center ;
+  border: solid 3px #4D648D;
+  background-color: #DDEFFF;
+  color: #4D648D;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 3px 5px #aaa;
+}
+
+footer p {
+  margin: 10px;
+}
+
+footer li a {
+  color: #4D648D;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* STORM CENTER */
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: initial;
+  margin: 0 auto;
+  align-items: center;
+}
+
+form input {
+  margin-top: 5px;
+}
+
+form label.top {
+  display: block;
+  padding-top: 10px;
+  width: 175px;
+}
+
+form label.top input {
+  display: block;
+}
+
+#rating {
+  display: unset;
+}
+
+.sbs {
+  display: block;
+  margin: 20px 0px;
+}
+
+.sbs input {
+  display: block;
+  text-align: initial;
+}
+
+label input .initial {
+  display: inline;
+}
+
+textarea {
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  width: 175px;
+}
+
+input[type="radio"] {
+  margin-top: 15px;
+}
+
+select {
+  display: block;
+  margin-top: 5px;
+  width: 175px;
+}
+
+.button {
+  font-size: 15px;
+  background-color: #4D648D;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 175px;
+}
+
+.button:hover {
+  background-color: white;
+  color: #4D648D;
+}
+
+.thanks {
+  font-size: 40px;
+}
+
+.thanksSun {
+  width: 50%;
+  margin: 20px;
+}
+
+.thanksReturn {
+  display: block;
+  margin: 20px auto;
+  font-size: 20px;
+  text-decoration: none;
+  color: #4D648D;
+}
+
+/* HOME PAGE */
+
+.towns {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+}
+
+.towns section {
+  background-color: #DDEFFF;
+  border: solid 2px #4D648D;
+}
+
+.towns img {
+  width: 75%;
+  border: solid 2px #4D648D;
+  margin: 20px;
+  
+}
