@@ -29,16 +29,16 @@ monthName[11] = "December"
 var month = monthName[d.getMonth()];
 
 
-var weekday = new Array(7);
-weekday[0] = "Sunday";
-weekday[1] = "Monday";
-weekday[2] = "Tuesday";
-weekday[3] = "Wednesday";
-weekday[4] = "Thursday";
-weekday[5] = "Friday";
-weekday[6] = "Saturday";
+var day = new Array(7);
+day[0] = "Sunday";
+day[1] = "Monday";
+day[2] = "Tuesday";
+day[3] = "Wednesday";
+day[4] = "Thursday";
+day[5] = "Friday";
+day[6] = "Saturday";
 
-var dayOfWeek = weekday[d.getDay()];
+var dayOfWeek = day[d.getDay()];
 
 document.getElementById("fullDate").innerHTML = `${dayOfWeek}, ${date} ${month} ${year}`; 
 document.getElementById("currentYear").innerHTML = year;
@@ -47,8 +47,8 @@ document.getElementById("currentYear").innerHTML = year;
 // <----------------FRIDAY PANCAKE MESSAGE------------------------>
 
 
-const today = new Date();
-const dayNumber = today.getDay();
+const todayDate = new Date();
+const dayNumber = todayDate.getDay();
 const element = document.getElementById('message');
 
 if (dayNumber == 5) {

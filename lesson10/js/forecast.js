@@ -1,32 +1,62 @@
+const Currentday = new Date();
+
+const today = Currentday.getDay();
+
+let forecastDayNumber = today;
+console.log(forecastDayNumber);
+
+const weekday = new Array(7);
+  weekday[0] = 'Sunday';
+  weekday[1] = 'Monday';
+  weekday[2] = 'Tuesday';
+  weekday[3] = 'Wednesday';
+  weekday[4] = 'Thursday';
+  weekday[5] = 'Friday';
+  weekday[6] = 'Saturday';
+
 const apiURL2 = '//api.openweathermap.org/data/2.5/forecast?id=5604473&appid=41d280b70e29802945dee986f145da33&units=imperial';
 
 fetch(apiURL2)
   .then((response) => response.json())
-  .then((jsObject) => {
-    console.log(jsObject.city.name);
+  .then((weatherinfo) => {
+    console.log(weatherinfo);
 
-    const forecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
+    let mylist = weatherinfo.list;
 
-    console.log(forecast);
+    let forecastDayNumber = today;
 
-    let day = 0;
+      for (i = 0; i < mylist.length; i++) {
+        
+        let time = mylist[i].dt_txt;
+        if (time.includes('18:00:00')) {
+          console.log('18:00:00');
 
-    const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+          forecastDayNumber += 1;
+          if (forecastDayNumber === 7) {
+            forecastDayNumber = 0;
+          }
+          let theDayName = document.createElement('span');
+          theDayName.textContent = weekday[forecastDayNumber];
+          console.log('>' + weekday[forecastDayNumber]);
 
-    forecast.forEach(x => {
-      const d = new Date(x.dt_txt);
-      document.getElementById(`dayofweek${day+1}`).textContent = weekdays[d.getDay()];
-      document.getElementById(`forecast${day+1}`).textContent = x.main.temp;
-      
-      const iconcode = jsObject.weather[0].icon;
-      // console.log(iconcode);
-  
-      const icon_path = '//openweathermap.org/img/w/' + iconcode + '.png';
-      // console.log(icon_path);
-  
-      document.getElementById('weather_icon').src = icon_path;      
-      
-      day++;
-    })
+          let theTemp = document.createElement('p');
+          theTemp.textContent = weatherinfo.list[i].main.temp + '\xB0';
 
-  }); 
+          let iconcode = weatherinfo.list[i].weather[0].icon;
+
+          let iconPath = '//openweathermap.org/img/w/' + iconcode + '.png';
+
+          let theIcon = document.createElement('img');
+
+          theIcon.src = iconPath;
+
+          let theDay = document.createElement('div');
+          theDay.appendChild(theDayName);
+          theDay.appendChild(theTemp);
+          theDay.appendChild(theIcon);
+
+          document.getElementById('forecast').appendChild(theDay);
+        }
+      }
+  })
+

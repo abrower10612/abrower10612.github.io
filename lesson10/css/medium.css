@@ -48,28 +48,36 @@
     font-size: 25px;
   }
 
-  section.forecast {
+  section#forecast {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
   }
 
-  section.forecast div {
+  #forecast div {
     text-align: center;
-    border: 1px solid #4D648D;
+    border: 2px solid #4D648D;
     border-right: none;
     padding-bottom: 10px;
+    font-size: 20px;
   }
 
-  section.forecast div:nth-child(5){
+  #forecast img {
+    width: 50%;
+  }
+  
+  section#forecast div:nth-child(1){
+    display: none;
+  }
+
+  section#forecast div:nth-child(6){
     text-align: center;
-    border: 1px solid #4D648D;
+    border: 2px solid #4D648D;
   }
 
-  section.forecast div h5 {
+  section#forecast div {
     background-color: #DDEFFF;
     margin: 0 0 10px 0;
     padding: 1rem;
-    border-bottom: 1px solid #4D648D;
   }
 
   .contact {

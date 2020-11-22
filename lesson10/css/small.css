@@ -158,7 +158,6 @@ h1 {
   filter: blur(0em);
   transition: filter 0.5s;
   border: solid 2px black;
-  
 }
 
 .gallery img:hover {
@@ -197,7 +196,7 @@ main {
   padding: 10px;
 }
 
-section.forecast {
+section#forecast {
   display: none;
 }
 
@@ -216,7 +215,7 @@ section.forecast {
   margin: 10px;
 }
 
-._map {
+.preston_map {
   display: none;
 }
 
