@@ -102,29 +102,35 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
-/* HOME */
+/* HOME PAGE */
 
-.towns {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-}
-
-/* .towns section {
+.towns section {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.towns img {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.towns div {
+  grid-column: 2;
+  grid-row: 1;
 }
 
 .towns section:nth-child(2) img {
   grid-column: 2;
   grid-row: 1;
+  justify-self: right;
 }
 
 .towns section:nth-child(2) div{
   grid-column: 1;
   grid-row: 1;
-} */
-
+}
 
 }
+
 /* END OF MEDIA QUERY */

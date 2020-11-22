@@ -9,6 +9,7 @@ fetch(requestURL)
     let towns = towndata.filter(town => (town.name == 'Fish Haven' || town.name == 'Preston' || town.name == 'Soda Springs'));
     towns.forEach(town => {
       let card = document.createElement('section');
+      let div = document.createElement('div');
       let name = document.createElement('h2');
       let motto = document.createElement('motto')
       let founded = document.createElement('h3');
@@ -24,11 +25,12 @@ fetch(requestURL)
       img.setAttribute('src', `images/${town.photo}`);
       img.setAttribute('alt', town.name);
 
-      card.appendChild(name);
-      card.appendChild(motto);
-      card.appendChild(founded);
-      card.appendChild(population);
-      card.appendChild(rainfall);
+      div.appendChild(name);
+      div.appendChild(motto);
+      div.appendChild(founded);
+      div.appendChild(population);
+      div.appendChild(rainfall);
+      card.appendChild(div);
       card.appendChild(img);
 
       document.querySelector('.towns').appendChild(card);

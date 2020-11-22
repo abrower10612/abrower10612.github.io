@@ -102,8 +102,6 @@ nav a:hover {
   max-width: 400px;
 }
 
-
-
 div.showme {
   display: block;
 }
@@ -341,7 +339,7 @@ select {
   color: #4D648D;
 }
 
-/* HOME */
+/* HOME PAGE */
 
 .towns {
   display: grid;

@@ -32,5 +32,9 @@
   gap: 10px;
 }
 
+.towns section {
+  display: block;
+}
+
 }
 /* END OF MEDIA QUERY */
