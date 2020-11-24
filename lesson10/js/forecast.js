@@ -25,6 +25,10 @@ fetch(apiURL2)
 
     let forecastDayNumber = today;
 
+    let townName = document.createElement('span');
+    townName.textContent = weatherinfo.city.name + ' Five Day Forecast';
+    document.getElementById('townName').appendChild(townName);
+
       for (i = 0; i < mylist.length; i++) {
         
         let time = mylist[i].dt_txt;
@@ -35,6 +39,7 @@ fetch(apiURL2)
           if (forecastDayNumber === 7) {
             forecastDayNumber = 0;
           }
+          
           let theDayName = document.createElement('span');
           theDayName.textContent = weekday[forecastDayNumber];
           console.log('>' + weekday[forecastDayNumber]);

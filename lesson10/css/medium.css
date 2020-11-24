@@ -48,6 +48,10 @@
     font-size: 25px;
   }
 
+  #townName {
+    font-size: 30px;
+  }
+
   section#forecast {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
