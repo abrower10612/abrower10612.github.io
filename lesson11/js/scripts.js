@@ -43,23 +43,6 @@ var dayOfWeek = day[d.getDay()];
 document.getElementById("fullDate").innerHTML = `${dayOfWeek}, ${date} ${month} ${year}`; 
 document.getElementById("currentYear").innerHTML = year;
 
-
-// <----------------FRIDAY PANCAKE MESSAGE------------------------>
-
-
-const todayDate = new Date();
-const dayNumber = todayDate.getDay();
-const element = document.getElementById('message');
-
-if (dayNumber == 5) {
-  element.classList.add("showme");
-}
-
-else {
-  element.classList.add("hideme");
-}
-
-
 // <----------------FORM SLIDER------------------------------>
 
 function adjustRating(rating) {

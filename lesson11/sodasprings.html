@@ -84,6 +84,19 @@
   </footer>
 <script src="js/sodaspringsact.js"></script>
 <script src="js/scripts.js"></script>
+<script>
+  const todayDate = new Date();
+  const dayNumber = todayDate.getDay();
+  const element = document.getElementById('message');
+
+  if (dayNumber == 5) {
+    element.classList.add("showme");
+  }
+
+  else {
+    element.classList.add("hideme");
+  }
+</script>
 <script src="js/sodaweather.js"></script>
 <script src="js/sodaforecast.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
