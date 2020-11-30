@@ -84,6 +84,14 @@
     padding: 1rem;
   }
 
+  #forecast {
+    display: initial;
+  }
+  
+  #townName {
+    display: initial;
+  }
+
   .contact {
     display: flex;
     flex-flow: row wrap;
