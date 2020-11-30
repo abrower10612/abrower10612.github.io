@@ -6,7 +6,6 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((weatherInfo) => {
     //Once it comes back, display it to the console.
-    console.log(weatherInfo);
 
     // document.getElementById('place').innerHTML = weatherInfo.name;
     document.getElementById('currently').innerHTML = weatherInfo.weather[0].main;

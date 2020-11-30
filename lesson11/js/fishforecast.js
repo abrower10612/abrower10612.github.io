@@ -3,7 +3,6 @@ const Currentday = new Date();
 const today = Currentday.getDay();
 
 let forecastDayNumber = today;
-console.log(forecastDayNumber);
 
 const weekday = new Array(7);
   weekday[0] = 'Sunday';
@@ -19,7 +18,6 @@ const apiURL2 = '//api.openweathermap.org/data/2.5/forecast?id=5585000&appid=41d
 fetch(apiURL2)
   .then((response) => response.json())
   .then((weatherinfo) => {
-    console.log(weatherinfo);
 
     let mylist = weatherinfo.list;
 
@@ -33,7 +31,6 @@ fetch(apiURL2)
         
         let time = mylist[i].dt_txt;
         if (time.includes('18:00:00')) {
-          console.log('18:00:00');
 
           forecastDayNumber += 1;
           if (forecastDayNumber === 7) {
@@ -42,7 +39,6 @@ fetch(apiURL2)
           
           let theDayName = document.createElement('span');
           theDayName.textContent = weekday[forecastDayNumber];
-          console.log('>' + weekday[forecastDayNumber]);
 
           let theTemp = document.createElement('p');
           theTemp.textContent = weatherinfo.list[i].main.temp + '\xB0';
