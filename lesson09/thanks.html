@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <title>Thank You | Weatherbird</title>
+</head>
+<body>
+  <header class="clearfix">
+    <button class="ham" onclick="toggleMenu()">&#9776;</button>
+      <div class="headercontainer">
+        <img src="images/logosymbol.png" alt="logo symbol" class="logo-symbol">
+        <p class="weatherbird"><b>Weatherbird</b></p>
+      </div>
+      <p class="motto"><i>Never worry about the weather again</i></p>
+      <nav class="mainNav">
+        <ul id="primaryNav" class="hide">
+          <li><a href="">Home</a></li>
+          <li><a href="../lesson06/preston.html">Preston</a></li>
+          <li><a href="">Soda Springs</a></li>
+          <li><a href="">Fish Haven</a></li>
+          <li><a href="stormcenter.html"class="active">Storm Center</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+  </header>
+  <main>
+   <p class="thanks">Thank you for submitting your weather report! We will review it and be in touch with you soon.</p>
+   <form action="stormcenter.html">
+    <input type="submit" value="Return to Storm Center" class="thanksReturn">
+  </form>   <img src="images/sun.png" alt="Sun" class="thanksSun">
+  </main>
+  <footer>
+    <span id="fullDate"></span>
+    <p>&copy; <span id="currentYear"></span> | Andrew Brower | BYU-Idaho</p>
+  </footer>
+<script src="js/scripts.js"></script>
+<script src="js/app.js" defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+  WebFont.load({
+  google: {
+    families: [
+       'fontfamilynameofyourchoice'
+    ]
+  }
+});
+</script>
+</body>
+</html>
