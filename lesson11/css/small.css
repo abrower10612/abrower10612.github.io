@@ -242,12 +242,8 @@ footer p {
   margin: 10px;
 }
 
-footer li a {
+footer a {
   color: #4D648D;
-}
-
-footer li {
-  list-style-type: none;
 }
 
 .clearfix:after {

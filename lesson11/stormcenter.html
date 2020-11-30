@@ -48,7 +48,7 @@
         </datalist>
       </label>
       <label class="top">Storm Severity &nbsp;&nbsp;&nbsp;<br>
-				<input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" name="stormSeverity">
+				<input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" name="stormSeverity">
 				<span id="ratingvalue">5</span>
       </label>
       <label class="sbs">Storm Region <select name="region" id="region">
@@ -58,11 +58,11 @@
         <option value="Fish Haven">Fish Haven</option>
       </select>
     </label>
-    <label class="radio">User in Danger<br>
-      <label><input type="radio" name="radio">Yes</label><br>
-      <label><input type="radio" name="radio">Maybe</label><br>
-      <label><input type="radio" name="radio">No</label><br>
-    </label>
+    <section class="radio">User in Danger<br>
+      <input type="radio" name="radio">&emsp;Yes<br>
+      <input type="radio" name="radio">&emsp;Maybe<br>
+      <input type="radio" name="radio">&emsp;No<br>
+    </section>
     <label class="top">Comments:<textarea name="comments" id="comments" cols="30" rows="10" placeholder="Type comments here..."></textarea></label>
       <input type="submit" value="Submit My Report" class="button">
     </form>
