@@ -101,11 +101,11 @@ nav a:hover {
   max-width: 400px;
 }
 
-div.showme {
+.showme {
   display: block;
 }
 
-div.hideme {
+.hideme {
   display: none;
 }
 
