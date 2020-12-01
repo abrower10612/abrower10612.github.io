@@ -11,14 +11,17 @@
 </head>
 <body>
   <header>
+    <button class="ham" onclick="toggleMenu()">&#9776;</button>
     <nav>
       <ul>
         <img src="images/scoots.png" alt="">
-        <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">Rentals</a></li>
-        <li><a href="#">Reservations</a></li>
-        <li><a href="#">Tours</a></li>
-        <li><a href="#">Contact</a></li>
+        <section id="primaryNav">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Rentals</a></li>
+          <li><a href="#">Reservations</a></li>
+          <li><a href="#">Tours</a></li>
+          <li><a href="#">Contact</a></li>
+        </section>
       </ul>
     </nav>
   </header>
@@ -33,5 +36,6 @@
   <footer>
     <p>    Andrew Brower | BYU-Idaho | 2020</p>
   </footer>
+<script src="js/scripts.js"></script>
 </body>
 </html>
