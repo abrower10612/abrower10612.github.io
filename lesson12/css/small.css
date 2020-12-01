@@ -18,6 +18,7 @@ header {
   margin-top: 30px;
   margin-right: 20px;
   cursor: pointer;
+  margin-left: 0px;
 }
 
 .hide {
@@ -25,8 +26,7 @@ header {
 }
 
 nav ul img {
-  margin: 10px;
-  width: 50%;
+  width: 60%;
 }
 
 nav ul {
@@ -35,6 +35,10 @@ nav ul {
   text-align: center;
   /* justify-content: center; */
   align-items: center;
+}
+
+.hide {
+  display: none;
 }
 
 nav ul li {
@@ -49,7 +53,7 @@ nav ul li a {
   color: black;
   text-decoration: none;
   padding: 5px 10px;
-  font-size: 30px;
+  font-size: 20px;
   color: whitesmoke;
 }
 
