@@ -1,0 +1,70 @@
+@media only screen and (min-width: 700px) {
+
+  header {
+    display: flex;
+    align-items: center;
+  }
+
+  header img {
+    display: inline;
+    width: 20%;
+    margin: 20px;
+  }
+
+  .ham {
+    display: none;
+  }
+
+  #primaryNav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav {
+    margin: 0 auto;
+  }
+
+  nav ul {
+    border-top: none;
+  }
+
+  nav ul li a {
+    margin: 10px;
+    border-radius: 5px;
+  }
+
+  .options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .vehicle {
+    border: solid 3px black;
+    margin: 15px;
+    padding: 5px;
+    background-color: #30AEC7;
+  }
+  
+  .vehicle img {
+    width: 70%;
+    border: solid 2px black;
+    margin-top: 20px;
+  }
+  
+  .vehicle p {
+    font-size: 20px;
+    margin: 10px;
+    color: whitesmoke;
+  }
+
+  .vehicle button {
+    font-size: 20px;
+    border: solid 2px black;
+    cursor: pointer;
+    background-color: #0C71c0;
+    color: whitesmoke;
+    padding: 5px;
+  }
+
+}
+/* END OF MEDIUM MEDIA QUERY */

@@ -7,34 +7,42 @@
   <link rel="stylesheet" href="css/small.css">
   <link rel="stylesheet" href="css/medium.css">
   <link rel="stylesheet" href="css/large.css">
-  <title>Document</title>
+  <title>Home | Scoots</title>
 </head>
 <body>
   <header>
     <button class="ham" onclick="toggleMenu()">&#9776;</button>
+    <img src="images/scoots.png" alt="">
     <nav>
-      <ul>
-        <img src="images/scoots.png" alt="">
-        <section id="primaryNav" class="hide">
+      <ul class="hide" id="primaryNav">
           <li><a href="#" class="active">Home</a></li>
-          <li><a href="#">Rentals</a></li>
-          <li><a href="#">Reservations</a></li>
-          <li><a href="#">Tours</a></li>
-          <li><a href="#">Contact</a></li>
-        </section>
+          <li><a href="rentals.html">Rentals</a></li>
+          <li><a href="reservations.html">Reservations</a></li>
+          <li><a href="tours.html">Tours</a></li>
+          <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <p>Coming Soon...</p>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <h1>Home</h1>
+    <section class="options">
+      <div class="vehicle">
+        <img src="images/scooter.png" alt="">
+        <p>Explore the island, feel the wind in your hair, and take in the beautiful scenery of Cozumel on one of our easy-to-use scooters! Whether you need one for an hour or two or for a weekend, we've got you covered.</p>
+        <button onclick="document.location='reservations.html'">Reserve yours now!</button>      </div>
+      <div class="vehicle">
+        <img src="images/utv.png" alt="">
+        <p>Looking to take the whole family on an adventure through the rolling hills of Cozumel? Scoots UTVs provide an exceptional experience that will make unforgettable memories together.</p>
+        <button onclick="document.location='reservations.html'">Reserve yours now!</button>
+      </div>
+      <div class="vehicle">
+      <img src="images/jeep.png" alt="">
+      <p>If you're looking to get into the most rugged terrain of Cozumel, one of our Jeeps is going to be the perfect toy for your excursion. Soak in the sunshine and fresh air as you cruise around the island in style.</p>
+      <button onclick="document.location='reservations.html'">Reserve yours now!</button>      </div>
+    </section>
   </main>
   <footer>
-    <p>    Andrew Brower | BYU-Idaho | 2020</p>
+    <p>Andrew Brower | BYU-Idaho | 2020</p>
   </footer>
 <script src="js/scripts.js"></script>
 </body>

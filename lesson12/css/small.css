@@ -1,3 +1,6 @@
+/* Lighter Blue: 0C71c0 */
+/* Aqua Green: 30AEC7 */
+
 html {
   background-color: #f7f5e9;
 }
@@ -5,7 +8,7 @@ html {
 /* HEADER */
 
 header {
-  border: 2px solid black;
+  border: 3px solid black;
   background-color: #30AEC7;
   margin: 10px;
 }
@@ -18,23 +21,25 @@ header {
   margin-top: 30px;
   margin-right: 20px;
   cursor: pointer;
-  margin-left: 0px;
+  top: 1px;
+  right: 1px;
 }
 
-.hide {
-  display: none;
-}
-
-nav ul img {
+header img {
+  display: flex;
   width: 60%;
+  margin: 10px auto;
 }
 
 nav ul {
   display: flex;
   flex-flow: column;
   text-align: center;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
+  padding: 0;
+  border-top: solid 2px black;
+  margin: 0;
 }
 
 .hide {
@@ -44,9 +49,7 @@ nav ul {
 nav ul li {
   list-style-type: none;
   cursor: pointer;
-  display: block;
   width: 100%;
-  margin: 15px;
 }
 
 nav ul li a {
@@ -54,19 +57,17 @@ nav ul li a {
   text-decoration: none;
   padding: 5px 10px;
   font-size: 20px;
-  color: whitesmoke;
+  color: black;
+  display: block;
 }
 
 nav ul li a:hover {
-  color: red;
   background-color: #125E96;
-  border-radius: 5px;
   color: whitesmoke;
 }
 
 .active {
   background-color: lightgreen;
-  border-radius: 5px;
   color: whitesmoke;
   background-color: #125E96;
 }
@@ -78,13 +79,49 @@ main {
   font-size: 50px;
 }
 
+h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+/* HOME */
+
+.vehicle {
+  border: solid 3px black;
+  margin: 15px;
+  padding: 10px;
+  background-color: #30AEC7;
+}
+
+.vehicle img {
+  width: 70%;
+  border: solid 2px black;
+  margin-top: 20px;
+}
+
+.vehicle p {
+  font-size: 15px;
+  margin: 20px;
+  color: whitesmoke;
+}
+
+.vehicle button {
+  font-size: 20px;
+  margin-bottom: 10px;
+  border: solid 2px black;
+  cursor: pointer;
+  background-color: #0C71c0;
+  color: whitesmoke;
+  padding: 5px;
+}
+
 /* FOOTER */
 
 footer {
-  border: 2px solid black;
+  border: 3px solid black;
   background-color: #30AEC7;
   margin: 10px;
   text-align: center;
   color: whitesmoke;
-  font-size: 20px;
+  font-size: 10px;
 }
