@@ -1,5 +1,7 @@
 @media only screen and (min-width: 700px) {
 
+  /* ALL PAGES */
+
   header {
     display: flex;
     align-items: center;
@@ -9,6 +11,7 @@
     display: inline;
     width: 20%;
     margin: 20px;
+    animation-duration: 1s;
   }
 
   .ham {
@@ -29,9 +32,11 @@
   }
 
   nav ul li a {
-    margin: 10px;
     border-radius: 5px;
+    margin: 7px;
   }
+  
+  /* HOME PAGE */
 
   .options {
     display: grid;
@@ -39,10 +44,12 @@
   }
 
   .vehicle {
-    border: solid 3px black;
-    margin: 15px;
+    margin: 10px;
     padding: 5px;
-    background-color: #30AEC7;
+  }
+
+  .vehicle:hover {
+    box-shadow: 5px, 5px #333;
   }
   
   .vehicle img {
@@ -52,19 +59,58 @@
   }
   
   .vehicle p {
-    font-size: 20px;
+    font-size: 15px;
     margin: 10px;
-    color: whitesmoke;
   }
 
   .vehicle button {
-    font-size: 20px;
-    border: solid 2px black;
-    cursor: pointer;
-    background-color: #0C71c0;
-    color: whitesmoke;
-    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+    transition: all 0.5s;
+    width: 175px;
+    font-size: 15px;
   }
+
+  .vehicle button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .vehicle button span:after {
+    content: '\00bb' ;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .vehicle button:hover span {
+    padding-right: 25px;
+  }
+  
+  .vehicle button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  /* RENTALS PAGE */
+
+
+
+  /* RESERVATIONS PAGE */
+
+
+
+  /* TOURS PAGE */
+
+
+
+  /* CONTACT PAGE */
+
+
 
 }
 /* END OF MEDIUM MEDIA QUERY */

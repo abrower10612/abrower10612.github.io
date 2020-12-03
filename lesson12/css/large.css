@@ -1,5 +1,32 @@
 @media only screen and (min-width: 1200px) {
 
+   /* ALL PAGES */
+
+  nav ul li a {
+    margin: 30px;
+    font-size: 25px;
+  }
+  
+  /* HOME PAGE */
+
+
+  
+  /* RENTALS PAGE */
+
+
+
+  /* RESERVATIONS PAGE */
+
+
+
+  /* TOURS PAGE */
+
+
+
+  /* CONTACT PAGE */
+
+
+
 }
 
 /* END OF LARGE MEDIA QUERY */
