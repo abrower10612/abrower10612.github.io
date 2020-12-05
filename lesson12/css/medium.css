@@ -22,6 +22,10 @@
     display: none;
   }
 
+  #xID {
+    display: none;
+  }
+
   #primaryNav {
     display: flex;
     flex-direction: row;
