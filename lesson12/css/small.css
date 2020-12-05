@@ -119,6 +119,7 @@ main {
   cursor: pointer;
   outline: none;
   position: absolute;
+  margin: 0;
 }
 
 #message p {
