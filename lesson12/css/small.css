@@ -16,18 +16,20 @@ header {
   background-color: #30AEC7;
 }
 
+.buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
 .ham {
   position: absolute;
   background-color: #30AEC7;
   outline: none;
   border: none;
-  float: right;
-  font-size: 30px;
-  margin-top: 20px;
-  margin-right: 20px;
+  font-size: 2rem;
   cursor: pointer;
-  top: 2%;
-  right: 2%;
+  right: 10%;
 }
 
 .ham {
@@ -39,13 +41,9 @@ header {
   background-color: #30AEC7;
   outline: none;
   border: none;
-  float: right;
-  font-size: 30px;
-  margin-top: 20px;
-  margin-right: 20px;
+  font-size: 2rem;
   cursor: pointer;
-  top: 2%;
-  right: 2%;
+  right: 10%;
 }
 
 .xID {
@@ -53,17 +51,8 @@ header {
 }
 
 header img {
-  display: flex;
-  width: 60%;
+  width: 40%;
   margin: 10px auto;
-  animation-name: logo;
-  animation-duration: 0.75s;
-  position: relative;
-}
-
-@keyframes logo {
-  0%   {left: -400px; top:0px;}
-  100% {left: 0px; top:0px;}
 }
 
 nav ul {

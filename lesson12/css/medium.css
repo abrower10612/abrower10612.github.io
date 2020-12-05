@@ -3,16 +3,20 @@
   /* ALL PAGES */
 
   header {
-    display: flex;
-    align-items: center;
+    /* display: flex; */
   }
 
-  header img {
-    display: inline;
-    width: 20%;
-    margin: 20px;
-    animation-duration: 1s;
-  }
+  .buttons {
+  display: flex;
+  position: initial;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+  /* header img {
+    width: 40%;
+  } */
 
   .ham {
     display: none;
@@ -24,16 +28,16 @@
   }
 
   nav {
-    margin: 0 auto;
+    margin: auto;
   }
 
-  nav ul {
+  /* nav ul {
     border-top: none;
-  }
+  } */
 
-  nav ul li a {
-    border-radius: 5px;
-    margin: 7px;
+  nav ul li a:hover {
+    background-color: #125E96;
+    color: whitesmoke;
   }
   
   /* HOME PAGE */

@@ -2,9 +2,13 @@
 
    /* ALL PAGES */
 
-  nav ul li a {
-    margin: 30px;
+  
+   nav ul li a {
     font-size: 25px;
+  }
+
+  header img {
+    width: 20%;
   }
 
   /* HOME PAGE */
