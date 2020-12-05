@@ -57,8 +57,8 @@ footer a {
   color: yellow;
 }
 
-.utah {
-  text-decoration: none;
-  cursor: initial;
+.secret {
+  cursor: none;
+  color: #3a65af;
 }
 
