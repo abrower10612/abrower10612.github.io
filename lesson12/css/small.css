@@ -24,7 +24,7 @@ header {
 
 .ham {
   position: absolute;
-  background-color: #30AEC7;
+  background-color: inherit;
   outline: none;
   border: none;
   font-size: 35px;
@@ -38,7 +38,7 @@ header {
 
 #xID {
   position: absolute;
-  background-color: #30AEC7;
+  background-color: inherit;
   outline: none;
   border: none;
   font-size: 35px;
