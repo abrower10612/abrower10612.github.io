@@ -104,26 +104,21 @@ main {
 }
 
 #message {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  display: flex;
+  flex-flow: row-reverse;
   border: solid 3px black;
   background-color: whitesmoke;
   margin: 10px;
 }
 
 #message button {
-  grid-column: 4;
-  grid-row: 1;
-  width: auto;
   height: 25px;
   font-size: 25px;
-  background-color: whitesmoke;
+  background-color: transparent;
   border: none;
-  margin-top: 10px;
-  margin-right: 10px;
   cursor: pointer;
   outline: none;
+  position: absolute;
 }
 
 #message p {
