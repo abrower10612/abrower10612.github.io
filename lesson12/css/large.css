@@ -6,10 +6,17 @@
     margin: 30px;
     font-size: 25px;
   }
-  
+
   /* HOME PAGE */
 
 
+  .vehicle button {
+    border-radius: 4px;
+    text-align: center;
+    transition: all 0.5s;
+    width: 60%;
+    font-size: 25px;
+  }
   
   /* RENTALS PAGE */
 

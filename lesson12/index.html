@@ -11,7 +11,14 @@
 </head>
 <body>
   <header>
-    <button class="ham" onclick="toggleMenu()">&#9776;</button>
+    <button class="ham" id="hamID" onclick="toggleMenu(), toggleHam(), toggleX()">&#9776;</button>
+    <button class="hide" id="xID" onclick="toggleMenu(), toggleHam(), toggleX()">X</button>
+    <div id="ham">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
     <img src="images/scoots.png" alt="">
     <nav>
       <ul class="hide" id="primaryNav">
@@ -24,6 +31,10 @@
     </nav>
   </header>
   <main>
+    <div class="hide" id="message">
+      <button onclick="this.parentElement.style.display='none';">X</button>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati voluptatem aut quam aliquid impedit adipisci, quasi sequi libero? Aut saepe, ab corporis eligendi quis nihil quas iusto consequatur, quia tenetur doloribus tempora harum error qui deserunt quasi? Architecto, dolorem veritatis!.</p>
+    </div>
     <h1>Home</h1>
     <section class="options">
       <div class="vehicle">
