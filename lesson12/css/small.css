@@ -30,6 +30,10 @@ header {
   right: 2%;
 }
 
+.ham {
+  outline: none;
+}
+
 #xID {
   position: absolute;
   background-color: #30AEC7;
@@ -42,6 +46,10 @@ header {
   cursor: pointer;
   top: 2%;
   right: 2%;
+}
+
+.xID {
+  outline: none;
 }
 
 header img {
