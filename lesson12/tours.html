@@ -11,8 +11,8 @@
 </head>
 <body>
   <header>
-    <button class="ham" onclick="toggleMenu()">&#9776;</button>
-    <img src="images/scoots.png" alt="">
+    <button class="ham" id="hamID" onclick="toggleMenu(), toggleHam(), toggleX()">&#9776;</button>
+    <button class="hide" id="xID" onclick="toggleMenu(), toggleHam(), toggleX()">X</button>    <img src="images/scoots.png" alt="">
     <nav>
       <ul class="hide" id="primaryNav">
           <li><a href="index.html">Home</a></li>

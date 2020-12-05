@@ -17,37 +17,31 @@ header {
 }
 
 .ham {
+  position: absolute;
   background-color: #30AEC7;
   outline: none;
   border: none;
   float: right;
   font-size: 30px;
-  margin-top: 40px;
-  margin-right: 20px;
+  margin-top: 50px;
+  margin-right: 40px;
   cursor: pointer;
   top: 1px;
   right: 1px;
-}
-
-.ham:active {
-  border: none;
 }
 
 #xID {
+  position: absolute;
   background-color: #30AEC7;
   outline: none;
   border: none;
   float: right;
   font-size: 30px;
-  margin-top: 40px;
-  margin-right: 20px;
+  margin-top: 50px;
+  margin-right: 40px;
   cursor: pointer;
   top: 1px;
   right: 1px;
-}
-
-.x:active {
-  border: none;
 }
 
 header img {
