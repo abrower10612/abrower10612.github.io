@@ -23,11 +23,11 @@ header {
   border: none;
   float: right;
   font-size: 30px;
-  margin-top: 50px;
-  margin-right: 40px;
+  margin-top: 20px;
+  margin-right: 20px;
   cursor: pointer;
-  top: 1px;
-  right: 1px;
+  top: 2%;
+  right: 2%;
 }
 
 #xID {
@@ -37,11 +37,11 @@ header {
   border: none;
   float: right;
   font-size: 30px;
-  margin-top: 50px;
-  margin-right: 40px;
+  margin-top: 20px;
+  margin-right: 20px;
   cursor: pointer;
-  top: 1px;
-  right: 1px;
+  top: 2%;
+  right: 2%;
 }
 
 header img {
