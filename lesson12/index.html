@@ -7,10 +7,16 @@
   <link rel="stylesheet" href="css/small.css">
   <link rel="stylesheet" href="css/medium.css">
   <link rel="stylesheet" href="css/large.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Home | Scoots</title>
 </head>
 <body>
   <header>
+    <section class="socialheader">
+      <a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>
+      <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>
+      <a href="https://www.twitter.com" class="fa fa-twitter" target="_blank"></a>
+    </section>
     <section class="buttons">
       <button class="ham" id="hamID" onclick="toggleMenu(), toggleHam(), toggleX()">&#9776;</button>
       <button class="hide" id="xID" onclick="toggleMenu(), toggleHam(), toggleX()">x</button>
@@ -23,6 +29,11 @@
           <li><a href="reservations.html">Reservations</a></li>
           <li><a href="tours.html">Tours</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li class="medhide" >
+            <a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>
+            <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>
+            <a href="https://www.twitter.com" class="fa fa-twitter"target="_blank"></a>
+          </li>
       </ul>
     </nav>
   </header>
@@ -47,13 +58,25 @@
       <img src="images/jeep.png" alt="">
       <p>If you're looking to get into the most rugged terrain of Cozumel, one of our Jeeps is going to be the perfect toy for your excursion. Soak in the sunshine and fresh air as you cruise around the island in style.</p>
       <button onclick="document.location='reservations.html'"><span>Reserve yours now!</span></button>  
-    </div>
+      </div>
     </section>
-    <div class="test"></div>
+    <section class="currentWeather">
+      <h2>Cozumel Current Weather Conditions</h2>
+      <div>The current weather condition for Cozumel is <span id="weather"></span> with the humidity sitting at <span id="humidity"></span>%. The current temperature is <span id="temp"></span>° F, but it feels like <span id="feels"></span>° F.</div>
+
+      <div><span id="icon"></span></div>
+    </section>
+    <section class="forecast">
+      <h2>Cozumel 3-Day Forecast</h2>
+      <section class="threeday">
+        <div id="forecast"></div>
+      </section>
+    </section>
   </main>
   <footer>
     <p>Andrew Brower | BYU-Idaho | 2020</p>
   </footer>
 <script src="js/scripts.js"></script>
+<script src="js/weather.js"></script>
 </body>
 </html>

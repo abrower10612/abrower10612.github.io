@@ -6,6 +6,22 @@
     /* display: flex; */
   }
 
+  .medhide {
+    display: none;
+  }
+
+  .socialheader {
+    position: absolute;
+    display: initial;
+    right: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  .socialheader a {
+    margin: 3px;
+  }
+
   .buttons {
   display: flex;
   position: initial;
@@ -42,6 +58,10 @@
   nav ul li a:hover {
     background-color: #125E96;
     color: whitesmoke;
+  }
+
+  .socialfooter {
+    display: none;
   }
   
   /* HOME PAGE */
