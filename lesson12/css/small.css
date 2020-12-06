@@ -243,9 +243,10 @@ footer {
 .currentWeather h2 {
   margin: 0;
   font-size: 2rem;
-  color: #125E96;
+  color: white;
   border-bottom: solid 3px black;
   padding: 5px 0;
+  background-color: #0C71c0;
 }
 
 .currentWeather div {
@@ -255,9 +256,9 @@ footer {
 
 #icon img {
   width: 20%;
-  border: solid 3px black;
+  border: solid 2px black;
   border-radius: 100%;
-  background-color: whitesmoke;
+  background-color: #30AEC7;
 }
 
 .forecast {
@@ -272,6 +273,8 @@ footer {
   color: #125E96;
   border-bottom: solid 3px black;
   padding: 5px 0;
+  background-color: #0C71c0;
+  color: white;
 }
 
 #forecast {
@@ -282,6 +285,20 @@ footer {
   border: solid 1px black;
 }
 
+#forecast h3 { 
+  margin: 0;
+  padding-bottom: 5px;
+  color: #125E96;
+  border-bottom: solid 1px black;
+  font-size: 30px;
+}
+
+#forecast span p {
+  margin: 5px;
+  color: black;
+  font-size: 25px;
+}
+
 #forecast span:nth-child(2) {
   border-left: solid 1px black;
   border-right: solid 1px black;
@@ -289,6 +306,10 @@ footer {
 
 #forecast img {
   width: 50%;
+  border: solid 2px black;
+  border-radius: 100%;
+  background-color: #30AEC7;
+  margin-top: 10px;
 }
 
 /* RENTALS PAGE */
