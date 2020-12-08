@@ -60,7 +60,7 @@ fetch(apiURL)
       console.log(theDayName);
 
       let theTemp = document.createElement('p');
-      theTemp.textContent = weatherInfo.daily[i].temp.day + '\xB0 F';
+      theTemp.textContent = Math.round(weatherInfo.daily[i].temp.day) + '\xB0 F';
 
       let theHum = document.createElement('p');
       theHum.textContent = 'Humidity: ' + weatherInfo.daily[i].humidity + '%';
