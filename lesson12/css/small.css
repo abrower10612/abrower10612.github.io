@@ -7,13 +7,14 @@ html {
   background-color: #f7f5e9;
 }
 
-header, footer {
+header,
+footer {
   margin: 10px;
 }
 
 header {
   border: 3px solid black;
-  background-color: #30AEC7;
+  background-color: #30aec7;
 }
 
 .medhide {
@@ -34,44 +35,44 @@ header {
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
-  border: solid 1px #125E96;
+  border: solid 1px #125e96;
   border-radius: 100%;
 }
 
 .fa-facebook:hover {
   background: #f7f5e9;
-  color: #3B5998;
-  border: solid 1px #125E96;
+  color: #3b5998;
+  border: solid 1px #125e96;
   border-radius: 100%;
 }
 
 .fa-instagram {
   background: #125688;
   color: white;
-  border: solid 1px #125E96;
+  border: solid 1px #125e96;
   border-radius: 100%;
 }
 
 .fa-instagram:hover {
   background: #f7f5e9;
-  color: #3B5998;
-  border: solid 1px #125E96;
+  color: #3b5998;
+  border: solid 1px #125e96;
   border-radius: 100%;
 }
 
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
-  border: solid 1px #125E96;
+  border: solid 1px #125e96;
   border-radius: 100%;
 }
 
 .fa-twitter:hover {
   background: #f7f5e9;
-  color: #3B5998;
-  border: solid 1px #125E96;
+  color: #3b5998;
+  border: solid 1px #125e96;
   border-radius: 100%;
 }
 
@@ -147,14 +148,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #125E96;
+  background-color: #125e96;
   color: whitesmoke;
 }
 
 .active {
   background-color: lightgreen;
   color: whitesmoke;
-  background-color: #125E96;
+  background-color: #125e96;
 }
 
 main {
@@ -196,7 +197,7 @@ h1 {
 
 footer {
   border: 3px solid black;
-  background-color: #30AEC7;
+  background-color: #30aec7;
   margin: 15px;
   text-align: center;
   color: whitesmoke;
@@ -209,7 +210,7 @@ footer {
   border: solid 3px black;
   margin: 15px;
   padding: 10px;
-  background-color: #30AEC7;
+  background-color: #30aec7;
 }
 
 .vehicle img {
@@ -229,7 +230,7 @@ footer {
   margin-bottom: 10px;
   border: solid 2px black;
   cursor: pointer;
-  background-color: #0C71c0;
+  background-color: #0c71c0;
   color: whitesmoke;
   padding: 5px;
 }
@@ -246,7 +247,7 @@ footer {
   color: white;
   border-bottom: solid 3px black;
   padding: 5px 0;
-  background-color: #0C71c0;
+  background-color: #0c71c0;
 }
 
 .currentWeather div {
@@ -258,7 +259,7 @@ footer {
   width: 20%;
   border: solid 2px black;
   border-radius: 100%;
-  background-color: #30AEC7;
+  background-color: #30aec7;
 }
 
 .forecast {
@@ -270,10 +271,10 @@ footer {
 .forecast h2 {
   margin: 0;
   font-size: 2rem;
-  color: #125E96;
+  color: #125e96;
   border-bottom: solid 3px black;
   padding: 5px 0;
-  background-color: #0C71c0;
+  background-color: #0c71c0;
   color: white;
 }
 
@@ -285,18 +286,18 @@ footer {
   border: solid 1px black;
 }
 
-#forecast h3 { 
+#forecast h3 {
   margin: 0;
   padding-bottom: 5px;
-  color: #125E96;
+  color: #125e96;
   border-bottom: solid 1px black;
-  font-size: 30px;
+  font-size: 1rem;
 }
 
 #forecast span p {
   margin: 5px;
   color: black;
-  font-size: 25px;
+  font-size: 1rem;
 }
 
 #forecast span:nth-child(2) {
@@ -305,24 +306,17 @@ footer {
 }
 
 #forecast img {
-  width: 50%;
+  /* width: 1fr; */
   border: solid 2px black;
   border-radius: 100%;
-  background-color: #30AEC7;
+  background-color: #30aec7;
   margin-top: 10px;
 }
 
 /* RENTALS PAGE */
 
-
-
 /* RESERVATIONS PAGE */
-
-
 
 /* TOURS PAGE */
 
-
-
 /* CONTACT PAGE */
-
