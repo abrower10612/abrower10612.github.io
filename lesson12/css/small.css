@@ -101,7 +101,7 @@ header {
   background-color: transparent;
   outline: none;
   border: none;
-  font-size: 35px;
+  font-size: 50px;
   cursor: pointer;
 }
 
@@ -110,7 +110,7 @@ header {
 }
 
 header img {
-  width: 40%;
+  width: 60%;
   margin: 10px auto;
 }
 
@@ -208,17 +208,19 @@ footer {
 /* HOME PAGE */
 
 .vehicle {
+  display: grid;
   border: solid 3px black;
   margin: 15px;
   padding: 10px;
   background-color: #30aec7;
   box-shadow: 7px 7px 3px #999999;
+  align-items: center;
 }
 
 .vehicle img {
   width: 70%;
   border: solid 2px black;
-  margin-top: 20px;
+  margin: 20px auto 0 auto;
 }
 
 .vehicle p {
@@ -227,9 +229,37 @@ footer {
   color: whitesmoke;
 }
 
+.vehicle p {
+  color: black;
+}
+
+.vehicle h6 {
+  margin: 10px 0;
+  color: black;
+}
+
+.models {
+  border: solid 2px black;
+  margin: 10px auto;
+}
+
+.models ul {
+  margin: 10px;
+}
+
+.models ul li {
+  font-size: 20px;
+  text-align: left;
+  margin: 0;
+}
+
+.models ul li ul {
+  margin: 0;
+}
+
 .vehicle button {
   font-size: 20px;
-  margin-bottom: 10px;
+  margin: 0 auto 10px auto;
   border: solid 2px black;
   cursor: pointer;
   background-color: #0c71c0;

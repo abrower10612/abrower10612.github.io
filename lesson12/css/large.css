@@ -18,6 +18,10 @@
     margin: 20px auto;
   }
 
+  #message p {
+    font-size: 30px;
+  }
+
   /* HOME PAGE */
 
   .options {

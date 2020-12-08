@@ -58,7 +58,7 @@
 
   .options {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .vehicle {
@@ -71,13 +71,13 @@
   }
 
   .vehicle img {
-    width: 70%;
+    width: 50%;
     border: solid 2px black;
     margin-top: 20px;
   }
 
   .vehicle p {
-    font-size: 15px;
+    font-size: 25px;
     margin: 10px;
   }
 
