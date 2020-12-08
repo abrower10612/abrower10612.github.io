@@ -38,11 +38,11 @@
     </nav>
   </header>
   <main>
+    <h1>Home</h1>
     <div class="hide" id="message">
       <button onclick="this.parentElement.style.display='none';">x</button>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati voluptatem aut quam aliquid impedit adipisci, quasi sequi libero? Aut saepe, ab corporis eligendi quis nihil quas iusto consequatur, quia tenetur doloribus tempora harum error qui deserunt quasi? Architecto, dolorem veritatis!.</p>
     </div>
-    <h1>Home</h1>
     <section class="options">
       <div class="vehicle">
           <img src="images/scooter.png" alt="">
@@ -60,19 +60,19 @@
       <button onclick="document.location='reservations.html'"><span>Reserve yours now!</span></button>  
       </div>
     </section>
-    <section class="currentWeather">
-      <h2>Cozumel Current Weather Conditions</h2>
-      <div>The current weather condition for Cozumel is <span id="weather"></span> with <span id="humidity"></span>% humidity. The current temperature is <span id="temp"></span>° F, and it feels like <span id="feels"></span>° F.</div>
-
-      <div><span id="icon"></span></div>
-    </section>
-    <section class="forecast">
-      <h2>Cozumel 3-Day Forecast</h2>
-      <section class="threeday">
-        <div id="forecast"></div>
+    <section class="weatherInfo">
+      <section class="currentWeather">
+        <h2>Cozumel Current Weather Conditions</h2>
+        <div>The current weather condition for Cozumel is <span id="weather"></span> with <span id="humidity"></span>% humidity. The current temperature is <span id="temp"></span>° F, and it feels like <span id="feels"></span>° F.</div>
+        <div><span id="icon"></span></div>
+      </section>
+      <section class="forecast">
+        <h3>Cozumel 3-Day Forecast</h3>
+        <section class="threeday">
+          <div id="forecast"></div>
+        </section>
       </section>
     </section>
-  
   </main>
   <footer>
     <p>Andrew Brower | BYU-Idaho | 2020</p>

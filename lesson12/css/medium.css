@@ -1,5 +1,4 @@
 @media only screen and (min-width: 700px) {
-
   /* ALL PAGES */
 
   header {
@@ -23,16 +22,16 @@
   }
 
   .buttons {
-  display: flex;
-  position: initial;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px;
-}
+    display: flex;
+    position: initial;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
 
-  /* header img {
+  header img {
     width: 40%;
-  } */
+  }
 
   .ham {
     display: none;
@@ -51,19 +50,10 @@
     margin: auto;
   }
 
-  /* nav ul {
-    border-top: none;
-  } */
-
-  nav ul li a:hover {
-    background-color: #125E96;
-    color: whitesmoke;
-  }
-
   .socialfooter {
     display: none;
   }
-  
+
   /* HOME PAGE */
 
   .options {
@@ -79,13 +69,13 @@
   .vehicle:hover {
     box-shadow: 5px, 5px #333;
   }
-  
+
   .vehicle img {
     width: 70%;
     border: solid 2px black;
     margin-top: 20px;
   }
-  
+
   .vehicle p {
     font-size: 15px;
     margin: 10px;
@@ -104,40 +94,44 @@
     position: relative;
     transition: 0.5s;
   }
-  
+
   .vehicle button span:after {
-    content: '\00bb' ;
+    content: "\00bb";
     position: absolute;
     opacity: 0;
     top: 0;
     right: -20px;
     transition: 0.5s;
   }
-  
+
   .vehicle button:hover span {
     padding-right: 25px;
   }
-  
+
   .vehicle button:hover span:after {
     opacity: 1;
     right: 0;
   }
 
+  #forecast {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #forecast span:nth-child(2) {
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+  }
+
+  #forecast img {
+    width: 100px;
+  }
+
   /* RENTALS PAGE */
-
-
 
   /* RESERVATIONS PAGE */
 
-
-
   /* TOURS PAGE */
 
-
-
   /* CONTACT PAGE */
-
-
-
 }
 /* END OF MEDIUM MEDIA QUERY */

@@ -8,6 +8,7 @@ html {
 }
 
 header,
+main,
 footer {
   margin: 10px;
 }
@@ -211,6 +212,7 @@ footer {
   margin: 15px;
   padding: 10px;
   background-color: #30aec7;
+  box-shadow: 7px 7px 3px #999999;
 }
 
 .vehicle img {
@@ -220,7 +222,7 @@ footer {
 }
 
 .vehicle p {
-  font-size: 15px;
+  font-size: 25px;
   margin: 20px;
   color: whitesmoke;
 }
@@ -272,7 +274,18 @@ footer {
   margin: 0;
   font-size: 2rem;
   color: #125e96;
-  border-bottom: solid 3px black;
+  border-bottom: solid 1px black;
+  border-top: solid 1px black;
+  padding: 5px 0;
+  background-color: #95adba;
+  color: white;
+}
+
+.forecast h3 {
+  margin: 0;
+  font-size: 2rem;
+  color: #125e96;
+  border-bottom: solid 1px black;
   padding: 5px 0;
   background-color: #0c71c0;
   color: white;
@@ -280,7 +293,7 @@ footer {
 
 #forecast {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   margin: 10px;
   font-size: 30px;
   border: solid 1px black;
@@ -291,22 +304,15 @@ footer {
   padding-bottom: 5px;
   color: #125e96;
   border-bottom: solid 1px black;
-  font-size: 1rem;
 }
 
 #forecast span p {
   margin: 5px;
   color: black;
-  font-size: 1rem;
-}
-
-#forecast span:nth-child(2) {
-  border-left: solid 1px black;
-  border-right: solid 1px black;
+  font-size: 2rem;
 }
 
 #forecast img {
-  /* width: 1fr; */
   border: solid 2px black;
   border-radius: 100%;
   background-color: #30aec7;

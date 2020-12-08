@@ -54,7 +54,7 @@ fetch(apiURL)
         forecastDayNumber = 0;
       }
 
-      let theDayName = document.createElement('h3');
+      let theDayName = document.createElement('h2');
       theDayName.textContent = weekday[forecastDayNumber];
 
       console.log(theDayName);
