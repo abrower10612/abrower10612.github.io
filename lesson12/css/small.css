@@ -192,8 +192,8 @@ main {
 }
 
 h1 {
-  font-size: 30px;
-  margin: 0;
+  font-size: 50px;
+  margin: 0 auto;
 }
 
 footer {
@@ -224,12 +224,6 @@ footer {
 }
 
 .vehicle p {
-  font-size: 25px;
-  margin: 20px;
-  color: whitesmoke;
-}
-
-.vehicle p {
   color: black;
 }
 
@@ -241,6 +235,11 @@ footer {
 .models {
   border: solid 2px black;
   margin: 10px auto;
+  padding: 10px;
+}
+
+.models h6 {
+  font-size: 25px;
 }
 
 .models ul {
@@ -350,6 +349,40 @@ footer {
 }
 
 /* RENTALS PAGE */
+
+.options h3 {
+  margin: 0 0 10px 0;
+  font-size: 40px;
+}
+
+.divider {
+  border-bottom: solid 2px black;
+  grid-column: 1/4;
+  margin: 0 auto 20px auto;
+}
+
+.jeep {
+  width: 80%;
+  margin: 0 auto;
+  border: solid 2px black;
+}
+
+.scooter {
+  width: 80%;
+  margin: 0 auto;
+  border: solid 2px black;
+}
+
+.utv {
+  width: 80%;
+  margin: 0 auto;
+  border: solid 2px black;
+}
+
+.options p {
+  font-size: 25px;
+  margin: 20px;
+}
 
 /* RESERVATIONS PAGE */
 
