@@ -40,23 +40,39 @@
   <main>
     <h1>Reservations</h1>
     <div class="divider"></div>
-    <section class="options">
-      <div class="vehicle">
-          <img src="images/scooter.png" alt="">
-          <p>Explore the island, feel the wind in your hair, and take in the beautiful scenery of Cozumel on one of our easy-to-use scooters! Whether you need one for an hour or two or for a weekend, we've got you covered.</p>
-          <button onclick="document.location='reservations.html'"><span>Reserve yours now!</span></button>  
-      </div>
-      <div class="vehicle">
-        <img src="images/utv.png" alt="">
-        <p>Looking to take the whole family on an adventure through the rolling hills of Cozumel? Scoots UTVs provide an exceptional experience that will make unforgettable memories together.</p>
-        <button onclick="document.location='reservations.html'"><span>Reserve yours now!</span></button>  
-      </div>
-      <div class="vehicle">
-      <img src="images/jeep.png" alt="">
-      <p>If you're looking to get into the most rugged terrain of Cozumel, one of our Jeeps is going to be the perfect toy for your excursion. Soak in the sunshine and fresh air as you cruise around the island in style.</p>
-      <button onclick="document.location='reservations.html'"><span>Reserve yours now!</span></button>  
-    </div>
-    </section>
+    <form action="thanks.html">
+      <fieldset>
+        <legend>Personal</legend>
+        <label for="">First Name: <input type="text" placeholder="Type here..."></label>
+        <label for="">Last Name: <input type="text" placeholder="Type here..."></label>
+        <label for="">Phone: <input type="text" placeholder="Type here..."></label>
+        <label for="">Email: <input type="text" placeholder="Type here..."></label>
+        <label for="">Home State/Country: <input type="text" placeholder="Type here..."></label>
+        <label for="">Cruiseline:</label>
+          <label for=""><input type="radio" class="radio" name="cruise">Carnival</label>
+          <label for=""><input type="radio" class="radio" name="cruise">Princess</label>
+          <label for=""><input type="radio" class="radio" name="cruise">Royal</label>
+          <label for=""><input type="radio" class="radio" name="cruise">None</label>
+      </fieldset>
+      <fieldset>
+        <legend>Rental</legend>
+        <label for="">Rental Type: 
+          <select name="" id="">
+            <option value="">Choose One...</option>
+            <option value="1">Honda Metro Scooter</option>
+            <option value="1">Honda Dio Scooter</option>
+            <option value="1">Honda PCX150 Scooter</option>
+            <option value="1">Honda Pioneer ATV</option>
+            <option value="1">Jeep Wrangler 4-Door</option>
+            <option value="1">Jeep Wrangler 2-Door</option>
+          </select>
+        </label>
+        <label for="">Rental Date: <input type="date"></label>
+        <label for="">Return Date: <input type="date"></label>
+        <label for="">Comments/Requests:<textarea name="" id="" cols="20" rows="10" placeholder="Type here..."></textarea></label>
+      </fieldset>
+      <button>Reserve My Ride!</button>
+    </form>
   </main>
   <footer>
     <p>Andrew Brower | BYU-Idaho | 2020</p>
