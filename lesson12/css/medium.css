@@ -184,8 +184,32 @@
 
   /* RESERVATIONS PAGE */
 
+  fieldset button {
+    display: block;
+    margin: 20px;
+  }
+
   /* TOURS PAGE */
 
+  .visit img {
+    width: 50%;
+  }
+
+  .visit p {
+    width: 70%;
+    margin: 20px auto 40px;
+  }
+
   /* CONTACT PAGE */
+
+  .contactinfo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  iframe {
+    max-width: 500px;
+    margin: 30px auto;
+  }
 }
 /* END OF MEDIUM MEDIA QUERY */
