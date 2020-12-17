@@ -398,6 +398,18 @@ footer {
   border: solid 2px black;
 }
 
+table,
+th,
+td,
+tr {
+  font-size: 20px;
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+
 .utv {
   width: 80%;
   margin: 0 auto;
