@@ -10,6 +10,6 @@ fetch(pricesURL)
 
     console.log(metroMax)
 
-    document.getElementById('rentType').innerHTML = priceInfo.HondaMetroScooter.MaxPersons;
+    document.getElementById('rentType').innerHTML = priceInfo.HondaMetroScooter;
 
   });

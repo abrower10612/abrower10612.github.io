@@ -1,5 +1,6 @@
 {
   "HondaMetroScooter": {
+      "Rental": "Honda Metro Scooter",
       "MaxPersons": "1",
       "Reservation": {
           "Half Day": "$20",
@@ -12,6 +13,7 @@
   },
 
   "HondaDioScooter": {
+    "Rental": "Honda Dio Scooter",
     "MaxPersons": "2",
     "Reservation": {
         "HalfDay": "$30",
@@ -24,6 +26,7 @@
   },
 
   "HondaPCX150Scooter": {
+    "Rental": "Honda PCX150 Scooter",
     "MaxPersons": "2",
     "Reservation": {
         "HalfDay": "$40",
@@ -36,6 +39,7 @@
   },
 
   "HondaPioneerATV": {
+    "Rental": "Honda Pioneer ATV",
     "MaxPersons": "4",
     "Reservation": {
         "HalfDay": "$50",
@@ -48,6 +52,7 @@
   },
 
   "JeepWrangler4Door": {
+    "Rental": "Jeep Wrangler 4-Door",
     "MaxPersons": "5",
     "Reservation": {
         "HalfDay": "$70",
@@ -60,6 +65,7 @@
   },
 
   "JeepWrangler2Door": {
+    "Rental": "Jeep Wrangler 2-Door",
     "MaxPersons": "4",
     "Reservation": {
         "HalfDay": "$60",
