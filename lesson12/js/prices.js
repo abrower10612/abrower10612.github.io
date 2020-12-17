@@ -10,6 +10,12 @@ fetch(pricesURL)
 
     document.getElementById('metroHDR').innerHTML = priceInfo.Metro.Reservation.HalfDay;
 
+    document.getElementById('metroFDR').innerHTML = priceInfo.Metro.Reservation.FullDay;
+
+    document.getElementById('metroHDW').innerHTML = priceInfo.Metro.Reservation.FullDay;
+
+    document.getElementById('metroFDW').innerHTML = priceInfo.Metro.Reservation.FullDay;
+
 
 
 
