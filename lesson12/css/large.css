@@ -24,6 +24,11 @@
 
   /* HOME PAGE */
 
+  .islandImgs img {
+    max-width: 500px;
+    margin-top: 20px;
+  }
+
   .options {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -31,7 +36,7 @@
   }
 
   .vehicle {
-    margin: 0px;
+    margin: 0px auto 30px;
     padding: 10px;
   }
 
@@ -48,6 +53,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    max-width: 1000px;
   }
 
   .currentWeather {
@@ -73,6 +79,30 @@
   }
 
   /* RENTALS PAGE */
+
+  .options {
+    display: block;
+    width: 100%;
+  }
+
+  .options img {
+    max-width: 450px;
+  }
+
+  .options p {
+    max-width: 500px;
+    margin: 10px auto 50px;
+  }
+
+  table {
+    width: 25%;
+  }
+
+  .options button {
+    font-size: 25px;
+    margin: 0 auto 10px;
+    padding: 5px;
+  }
 
   /* RESERVATIONS PAGE */
 
