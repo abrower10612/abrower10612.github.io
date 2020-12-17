@@ -1,5 +1,5 @@
 {
-  "HondaMetroScooter": {
+  "Metro": {
       "Rental": "Honda Metro Scooter",
       "MaxPersons": "1",
       "Reservation": {
@@ -12,7 +12,7 @@
       }
   },
 
-  "HondaDioScooter": {
+  "Dio": {
     "Rental": "Honda Dio Scooter",
     "MaxPersons": "2",
     "Reservation": {
@@ -25,7 +25,7 @@
     }
   },
 
-  "HondaPCX150Scooter": {
+  "PCX150": {
     "Rental": "Honda PCX150 Scooter",
     "MaxPersons": "2",
     "Reservation": {
@@ -38,7 +38,7 @@
     }
   },
 
-  "HondaPioneerATV": {
+  "Pioneer": {
     "Rental": "Honda Pioneer ATV",
     "MaxPersons": "4",
     "Reservation": {
@@ -51,7 +51,7 @@
     }
   },
 
-  "JeepWrangler4Door": {
+  "4Door": {
     "Rental": "Jeep Wrangler 4-Door",
     "MaxPersons": "5",
     "Reservation": {
@@ -64,7 +64,7 @@
     }
   },
 
-  "JeepWrangler2Door": {
+  "2Door": {
     "Rental": "Jeep Wrangler 2-Door",
     "MaxPersons": "4",
     "Reservation": {
