@@ -4,6 +4,6 @@ fetch(pricesURL)
   .then((response) => response.json())
   .then((priceInfo) => {
 
-    console.log(priceInfo)
+    console.log(priceInfo["HondaMetroScooter"]["MaxPersons"])
 
   });
