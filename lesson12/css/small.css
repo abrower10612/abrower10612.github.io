@@ -597,6 +597,11 @@ h6 {
   width: 200px;
 }
 
+.contactbutton {
+  grid-column: 2;
+  margin: 10px;
+}
+
 iframe {
   width: 100%;
 }

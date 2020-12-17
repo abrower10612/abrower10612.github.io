@@ -43,10 +43,14 @@
     <div class="contactinfo">
       <fieldset>
         <legend>Contact Us</legend>
-        <label for="Name"><span>Name:</span><input type="text" placeholder="Type here..." id="Name"></label>
-        <label for="Email"><span>Email:</span> <input type="text" placeholder="Type here..." id="Email"></label>
-        <label for="Comment"><span>Comment:</span><br>
-        <textarea name="Comment" id="Comment" cols="20" rows="10" placeholder="Type here..."></textarea></label>
+        <form onsubmit="contactus()" action="contact.html">
+          <label for="Name"><span>Name:</span><input type="text" placeholder="Type here..." id="Name" required></label>
+          <label for="Email"><span>Email:</span> <input type="text" placeholder="Type here..." id="Email" required></label>
+          <label for="Comment"><span>Comment:</span><br>
+          <textarea name="Comment" id="Comment" cols="20" rows="10" placeholder="Type here..." required></textarea></label>
+          <button class="contactbutton">Send us your message</button>
+        </form>
+        <div id="contactus"></div>
       </fieldset>
       <fieldset>
         <legend>Contact Info</legend>

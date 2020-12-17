@@ -11,3 +11,7 @@ function toggleHam() {
 function toggleX() {
   document.getElementById("xID").classList.toggle("hide"); 
 }
+
+function contactus() {
+  alert("Thank you! Your message has been sent.")
+}
