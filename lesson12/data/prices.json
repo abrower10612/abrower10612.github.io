@@ -22,7 +22,7 @@
         "HalfDay": "$30",
         "FullDay": "$40"
     },
-    "Walk In": {
+    "WalkIn": {
         "Type": "WalkIn",
         "HalfDay": "$35",
         "FullDay": "$45"
@@ -52,7 +52,7 @@
         "HalfDay": "$50",
         "FullDay": "$70"
     },
-    "Walk In": {
+    "WalkIn": {
         "Type": "WalkIn",
         "HalfDay": "$60",
         "FullDay": "$80"

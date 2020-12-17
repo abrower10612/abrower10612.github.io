@@ -4,7 +4,9 @@ fetch(pricesURL)
   .then((response) => response.json())
   .then((priceInfo) => {
 
-    document.getElementById('rentType').innerHTML = priceInfo.Metro.Rental;
+    // METRO
+
+    document.getElementById('metro').innerHTML = priceInfo.Metro.Rental;
 
     document.getElementById('metroMax').innerHTML = priceInfo.Metro.MaxPersons;
 
@@ -12,9 +14,23 @@ fetch(pricesURL)
 
     document.getElementById('metroFDR').innerHTML = priceInfo.Metro.Reservation.FullDay;
 
-    document.getElementById('metroHDW').innerHTML = priceInfo.Metro.Reservation.FullDay;
+    document.getElementById('metroHDW').innerHTML = priceInfo.Metro.WalkIn.HalfDay;
 
-    document.getElementById('metroFDW').innerHTML = priceInfo.Metro.Reservation.FullDay;
+    document.getElementById('metroFDW').innerHTML = priceInfo.Metro.WalkIn.FullDay;
+
+    // DIO
+
+    document.getElementById('dio').innerHTML = priceInfo.Dio.Rental;
+
+    document.getElementById('dioMax').innerHTML = priceInfo.Dio.MaxPersons;
+
+    document.getElementById('dioHDR').innerHTML = priceInfo.Dio.Reservation.HalfDay;
+
+    document.getElementById('dioFDR').innerHTML = priceInfo.Dio.Reservation.FullDay;
+
+    document.getElementById('dioHDW').innerHTML = priceInfo.Dio.WalkIn.HalfDay;
+
+    document.getElementById('dioFDW').innerHTML = priceInfo.Dio.WalkIn.FullDay;
 
 
 
