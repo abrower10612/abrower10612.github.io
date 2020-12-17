@@ -380,6 +380,19 @@ footer {
   font-size: 40px;
 }
 
+.rentInfo {
+  display: flex;
+  font-size: 20px;
+  text-align: left;
+  justify-content: center;
+  margin: 0 auto 40px;
+}
+
+h4 {
+  font-size: 40px;
+  margin: 10px auto;
+}
+
 .divider {
   border-bottom: solid 2px black;
   grid-column: 1/4;
@@ -398,6 +411,10 @@ footer {
   border: solid 2px black;
 }
 
+table {
+  box-shadow: 5px 5px #999999;
+}
+
 table,
 th,
 td,
@@ -406,8 +423,9 @@ tr {
   border: 2px solid black;
   border-collapse: collapse;
   text-align: center;
-  margin: 30px auto;
+  margin: 30px auto 0;
   padding: 10px;
+  background-color: #30aec7;
 }
 
 .utv {
@@ -419,6 +437,16 @@ tr {
 .options p {
   font-size: 25px;
   margin: 20px;
+}
+
+.options button {
+  font-size: 20px;
+  margin: 0 auto 10px auto;
+  border: solid 2px black;
+  cursor: pointer;
+  background-color: #0c71c0;
+  color: whitesmoke;
+  padding: 5px;
 }
 
 /* RESERVATIONS PAGE */
