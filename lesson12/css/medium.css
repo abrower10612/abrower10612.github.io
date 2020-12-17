@@ -1,10 +1,6 @@
 @media only screen and (min-width: 700px) {
   /* ALL PAGES */
 
-  header {
-    /* display: flex; */
-  }
-
   .medhide {
     display: none;
   }
@@ -56,14 +52,44 @@
 
   /* HOME PAGE */
 
+  #message {
+    max-width: 500px;
+    margin: 30px auto;
+  }
+
+  .islandImgs h2 {
+    margin: 30px 0 20px;
+  }
+
+  .islandImgs {
+    display: block;
+    font-size: 30px;
+  }
+
+  .islandImgs img {
+    width: 60%;
+    margin-top: 20px;
+  }
+
+  .islandImgs p {
+    margin: 0 auto 50px;
+    width: 60%;
+  }
+
   .options {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .vehicle {
+  .options h2 {
+    font-size: 50px;
     margin: 10px;
+  }
+
+  .vehicle {
+    margin: 30px auto;
     padding: 5px;
+    max-width: 500px;
   }
 
   .vehicle:hover {
@@ -111,6 +137,11 @@
   .vehicle button:hover span:after {
     opacity: 1;
     right: 0;
+  }
+
+  .weatherInfo {
+    max-width: 500px;
+    margin: 0 auto;
   }
 
   #forecast {
