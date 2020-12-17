@@ -41,10 +41,6 @@ fetch(apiURL)
 
     document.getElementById('icon').appendChild(theWeather);
 
-    console.log(weatherInfo.daily[forecastDayNumber]);
-
-    console.log(weatherInfo)
-
     // |---------------- 3-Day Forecast ------------------|
 
     for (i = 0; i < 3; i++) {
@@ -56,8 +52,6 @@ fetch(apiURL)
 
       let theDayName = document.createElement('h2');
       theDayName.textContent = weekday[forecastDayNumber];
-
-      console.log(theDayName);
 
       let theTemp = document.createElement('p');
       theTemp.textContent = Math.round(weatherInfo.daily[i].temp.day) + '\xB0 F';

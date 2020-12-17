@@ -207,6 +207,31 @@ footer {
 
 /* HOME PAGE */
 
+.emojis {
+  font-size: 50px;
+}
+
+.islandImgs {
+  display: block;
+  font-size: 20px;
+}
+
+.islandImgs img {
+  width: 80%;
+  margin: 10px auto 0;
+  border: solid 2px black;
+}
+
+.islandImgs h2 {
+  color: #30aec7;
+  margin: 10px auto;
+}
+
+.options h2 {
+  font-size: 35px;
+  color: #30aec7;
+}
+
 .vehicle {
   display: grid;
   border: solid 3px black;
@@ -525,4 +550,8 @@ h6 {
   grid-row: 2;
   grid-column: 2;
   width: 200px;
+}
+
+iframe {
+  width: 100%;
 }
