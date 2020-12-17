@@ -4,7 +4,7 @@ fetch(pricesURL)
   .then((response) => response.json())
   .then((priceInfo) => {
 
-    console.log(priceInfo.JeepWrangler4Door.MaxPersons)
+    console.log(priceInfo.FourDoor.MaxPersons)
 
     let metroMax = priceInfo.HondaMetroScooter.MaxPersons
 

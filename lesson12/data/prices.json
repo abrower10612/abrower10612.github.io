@@ -51,7 +51,7 @@
     }
   },
 
-  "4Door": {
+  "FourDoor": {
     "Rental": "Jeep Wrangler 4-Door",
     "MaxPersons": "5",
     "Reservation": {
@@ -64,7 +64,7 @@
     }
   },
 
-  "2Door": {
+  "TwoDoor": {
     "Rental": "Jeep Wrangler 2-Door",
     "MaxPersons": "4",
     "Reservation": {
