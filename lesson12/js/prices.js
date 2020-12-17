@@ -1,4 +1,4 @@
-const pricesURL = 'http://abrower10612.github.io/lesson12/data/prices.json'
+const pricesURL = '//abrower10612.github.io/lesson12/data/prices.json'
 
 fetch(pricesURL)
   .then((response) => response.json())
