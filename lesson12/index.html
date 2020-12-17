@@ -12,16 +12,16 @@
 </head>
 <body>
   <header>
-    <section class="socialheader">
+    <div class="socialheader">
       <a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>
       <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>
       <a href="https://www.twitter.com" class="fa fa-twitter" target="_blank"></a>
-    </section>
-    <section class="buttons">
+    </div>
+    <div class="buttons">
       <button class="ham" id="hamID" onclick="toggleMenu(), toggleHam(), toggleX()">&#9776;</button>
       <button class="hide" id="xID" onclick="toggleMenu(), toggleHam(), toggleX()">x</button>
       <img src="images/scoots.png" alt="">
-    </section>
+    </div>
     <nav>
       <ul class="hide" id="primaryNav">
           <li><a href="#" class="active">Home</a></li>
@@ -32,25 +32,26 @@
           <li class="medhide" >
             <a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>
             <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>
-            <a href="https://www.twitter.com" class="fa fa-twitter"target="_blank"></a>
+            <a href="https://www.twitter.com" class="fa fa-twitter" target="_blank"></a>
           </li>
       </ul>
     </nav>
   </header>
   <main>
+    <h5>Welcome to Cozumel</h5>
+    <div class="divider"></div>
     <div class="hide" id="message">
       <button onclick="this.parentElement.style.display='none';">x</button>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati voluptatem aut quam aliquid impedit adipisci, quasi sequi libero? Aut saepe, ab corporis eligendi quis nihil quas iusto consequatur, quia tenetur doloribus tempora harum error qui deserunt quasi? Architecto, dolorem veritatis!.</p>
+      <p>All weather alerts to be aware of will show here. Stay tuned for the most up to date information on the weather on Cozumel. </p>
     </div>
-    <section class="islandImgs">
-      <h2>Welcome to the beautiful Cozumel</h2>
+    <div class="islandImgs">
       <img src="images/island1.png" alt="">
       <p>Cozumel is full of beautiful resorts, lush vegetation, and sunshine. You're going to love soaking it all in.</p>
       <img src="images/island2.png" alt="">
       <p>Have you ever seen sand so white and soft? The clear, blue water sits at beautiful, warm temperatures. It's all just waiting for you to dive in.</p>
-    </section>
+    </div>
     <div class="divider"></div>
-    <section class="options">
+    <div class="options">
       <h2>Let the fun begin!</h2>
       <div class="vehicle">
           <img src="images/scooter.png" alt="">
@@ -85,9 +86,9 @@
       </section>
       <button onclick="document.location='rentals.html'"><span>Click here for more details</span></button>  
       </div>
-    </section>
+    </div>
     <div class="divider"></div>
-    <section class="weatherInfo">
+    <div class="weatherInfo">
       <section class="currentWeather">
         <h2>Cozumel Current Weather Conditions</h2>
         <div>The current weather condition for Cozumel is <span id="weather"></span> with <span id="humidity"></span>% humidity. The current temperature is <span id="temp"></span>° F, and it feels like <span id="feels"></span>° F.</div>
@@ -95,17 +96,21 @@
       </section>
       <section class="forecast">
         <h3>Cozumel 3-Day Forecast</h3>
-        <section class="threeday">
+        <div class="threeday">
           <div id="forecast"></div>
-        </section>
+        </div>
       </section>
-    </section>
+    </div>
   </main>
   <footer>
-    <p>© <span id="currentYear"></span> | Andrew Brower | Utah | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>    <p class="last">Last Updated: <span id="lastUpdated"></span>
+    <p>© <span id="currentYear"></span> | Andrew Brower | Utah | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+    <p><a href="resources.html">Resources Page</a></p>
+    <p class="last">Last Updated: <span id="lastUpdated"></span>
   </footer>
 <script src="js/scripts.js"></script>
 <script src="js/lastUpdate.js"></script>
 <script src="js/weather.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/webfont.js"></script>
 </body>
 </html>

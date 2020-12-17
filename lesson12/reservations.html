@@ -12,16 +12,16 @@
 </head>
 <body>
   <header>
-    <section class="socialheader">
+    <div class="socialheader">
       <a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>
       <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>
       <a href="https://www.twitter.com" class="fa fa-twitter" target="_blank"></a>
-    </section>
-    <section class="buttons">
+    </div>
+    <div class="buttons">
       <button class="ham" id="hamID" onclick="toggleMenu(), toggleHam(), toggleX()">&#9776;</button>
       <button class="hide" id="xID" onclick="toggleMenu(), toggleHam(), toggleX()">x</button>
       <img src="images/scoots.png" alt="">
-    </section>
+    </div>
     <nav>
       <ul class="hide" id="primaryNav">
           <li><a href="index.html">Home</a></li>
@@ -32,32 +32,32 @@
           <li class="medhide" >
             <a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>
             <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>
-            <a href="https://www.twitter.com" class="fa fa-twitter"target="_blank"></a>
+            <a href="https://www.twitter.com" class="fa fa-twitter" target="_blank"></a>
           </li>
       </ul>
     </nav>
   </header>
   <main>
-    <h1>Reservations</h1>
+    <h5>Rental Reservation Form</h5>
     <div class="divider"></div>
     <form action="thanks.html">
       <fieldset>
         <legend>Personal</legend>
-        <label for="">First Name: <input type="text" placeholder="Type here..."></label>
-        <label for="">Last Name: <input type="text" placeholder="Type here..."></label>
-        <label for="">Phone: <input type="text" placeholder="Type here..."></label>
-        <label for="">Email: <input type="text" placeholder="Type here..."></label>
-        <label for="">Home State/Country: <input type="text" placeholder="Type here..."></label>
-        <label for="">Cruiseline:</label>
-          <label for=""><input type="radio" class="radio" name="cruise">Carnival</label>
-          <label for=""><input type="radio" class="radio" name="cruise">Princess</label>
-          <label for=""><input type="radio" class="radio" name="cruise">Royal</label>
-          <label for=""><input type="radio" class="radio" name="cruise">None</label>
+        <label>First Name: <input type="text" placeholder="Type here..." id="fname"></label>
+        <label>Last Name: <input type="text" placeholder="Type here..." id="lname"></label>
+        <label>Phone: <input type="text" placeholder="Type here..."></label>
+        <label >Email: <input type="text" placeholder="Type here..."></label>
+        <label>Home State/Country: <input type="text" placeholder="Type here..."></label>
+        <label>Cruiseline:</label>
+          <label><input type="radio" class="radio" name="cruise" value="Carnival">Carnival</label>
+          <label><input type="radio" class="radio" name="cruise" value="Princess">Princess</label>
+          <label><input type="radio" class="radio" name="cruise" value="Royal">Royal</label>
+          <label><input type="radio" class="radio" name="cruise" value="None">None</label>
       </fieldset>
       <fieldset>
         <legend>Rental</legend>
-        <label for="">Rental Type: 
-          <select name="" id="">
+        <label>Rental Type: 
+          <select>
             <option value="">Choose One...</option>
             <option value="1">Honda Metro Scooter</option>
             <option value="1">Honda Dio Scooter</option>
@@ -67,9 +67,9 @@
             <option value="1">Jeep Wrangler 2-Door</option>
           </select>
         </label>
-        <label for="">Rental Date: <input type="date"></label>
-        <label for="">Return Date: <input type="date"></label>
-        <label for="">Comments/Requests:<textarea name="" id="" cols="20" rows="10" placeholder="Type here..."></textarea></label>
+        <label>Rental Date: <input type="date"></label>
+        <label>Return Date: <input type="date"></label>
+        <label>Comments/Requests:<textarea cols="20" rows="10" placeholder="Type here..."></textarea></label>
         <button>Reserve My Ride!</button>
       </fieldset>    </form>
   </main>
@@ -77,5 +77,8 @@
     <p>© <span id="currentYear"></span> | Andrew Brower | Utah | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>    <p class="last">Last Updated: <span id="lastUpdated"></span>
   </footer>
 <script src="js/scripts.js"></script>
+<script src="js/lastUpdate.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/webfont.js"></script>
 </body>
 </html>

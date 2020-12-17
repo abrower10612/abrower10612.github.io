@@ -92,10 +92,6 @@
     max-width: 500px;
   }
 
-  .vehicle:hover {
-    box-shadow: 5px, 5px #333;
-  }
-
   .vehicle img {
     width: 50%;
     border: solid 2px black;

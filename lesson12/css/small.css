@@ -5,6 +5,7 @@
 
 html {
   background-color: #f7f5e9;
+  font-family: "Roboto";
 }
 
 header,
@@ -559,8 +560,8 @@ h6 {
   margin-top: 30px;
 }
 
-.contactinfo p {
-  margin-bottom: 10px;
+.contactinfo span {
+  margin-top: 10px;
   grid-column: 2;
 }
 
@@ -598,4 +599,16 @@ h6 {
 
 iframe {
   width: 100%;
+}
+
+/* RESOURCES */
+
+.resources {
+  display: flex;
+  flex-direction: column;
+}
+
+.resources a {
+  font-size: 30%;
+  margin: 10px 0;
 }
