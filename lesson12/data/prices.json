@@ -4,8 +4,8 @@
       "MaxPersons": "1",
       "Reservation": {
         "Type": "Reservation",
-          "Half Day": "$20",
-          "Full Day": "$30"
+          "HalfDay": "$20",
+          "FullDay": "$30"
       },
       "WalkIn": {
         "Type": "WalkIn",

@@ -4,12 +4,13 @@ fetch(pricesURL)
   .then((response) => response.json())
   .then((priceInfo) => {
 
-    console.log(priceInfo.FourDoor.MaxPersons)
-
-    let metroMax = priceInfo.HondaMetroScooter.MaxPersons
-
-    console.log(metroMax)
-
     document.getElementById('rentType').innerHTML = priceInfo.Metro.Rental;
+
+    document.getElementById('metroMax').innerHTML = priceInfo.Metro.MaxPersons;
+
+    document.getElementById('metroHDR').innerHTML = priceInfo.Metro.Reservation.HalfDay;
+
+
+
 
   });
